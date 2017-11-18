@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"pas",
+				"password2"
+			],
+			[
+				"p",
+				"password2"
+			],
+			[
+				"re",
+				"register_form"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"regi",
+				"register_form"
+			],
+			[
+				"f",
+				"forms"
+			],
+			[
+				"lO",
+				"LoginForm"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"login",
+				"login_form"
+			],
+			[
+				"lo",
+				"login_form"
+			],
+			[
+				"Text",
+				"TextInput"
+			],
+			[
+				"T",
+				"TextInput"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"c",
+				"contact_form"
+			],
+			[
+				"C",
+				"ContactForm"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"ht",
+				"html_"
+			],
+			[
+				"home",
+				"home_page"
+			],
+			[
 				"H",
 				"HttpResponse"
 			],
@@ -48,10 +124,6 @@
 				"Password"
 			],
 			[
-				"re",
-				"recipient_list"
-			],
-			[
 				"from",
 				"from_email"
 			],
@@ -84,16 +156,8 @@
 				"UserProfileForm"
 			],
 			[
-				"fo",
-				"forms"
-			],
-			[
 				"R",
 				"RegisterForm"
-			],
-			[
-				"C",
-				"CreateView"
 			],
 			[
 				"get",
@@ -102,10 +166,6 @@
 			[
 				"object",
 				"object_list"
-			],
-			[
-				"is",
-				"is_following_user_ids"
 			],
 			[
 				"Pro",
@@ -140,16 +200,8 @@
 				"ItemCreateView"
 			],
 			[
-				"form",
-				"form_valid"
-			],
-			[
 				"Item",
 				"ItemCreateView"
-			],
-			[
-				"login",
-				"login_url"
 			],
 			[
 				"va",
@@ -444,10 +496,6 @@
 				"deltaY"
 			],
 			[
-				"T",
-				"TileCleaned"
-			],
-			[
 				"drunk",
 				"drunkTestP2"
 			],
@@ -466,59 +514,20 @@
 			[
 				"step",
 				"stepsTaken"
-			],
-			[
-				"cu",
-				"currentLocation"
-			],
-			[
-				"dis",
-				"distY"
-			],
-			[
-				"dist",
-				"distX"
-			],
-			[
-				"y",
-				"yDist"
-			],
-			[
-				"load",
-				"loadwords"
-			],
-			[
-				"word",
-				"wordlist"
-			],
-			[
-				"M",
-				"MortgagePlots"
-			],
-			[
-				"plo",
-				"plotMortgages"
-			],
-			[
-				"var",
-				"varMonths"
-			],
-			[
-				"fix",
-				"fixedRate"
-			],
-			[
-				"two",
-				"towRate"
-			],
-			[
-				"fixed",
-				"fixed2"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "settings.py",
+			"settings":
+			{
+				"buffer_size": 3240,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -571,8 +580,25 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Dev/ecommerce",
+		"/C/Dev/ecommerce/src",
+		"/C/Dev/ecommerce/src/ecommerce",
+		"/C/Dev/ecommerce/src/templates",
+		"/C/Dev/ecommerce/src/templates/auth"
+	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/src/ecommerce/views.py",
+		"/C/Dev/ecommerce/src/templates/auth/login.html",
+		"/C/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Dev/ecommerce/src/templates/auth/register.html",
+		"/C/Dev/ecommerce/src/templates/home.html",
+		"/C/Dev/ecommerce/src/ecommerce/forms.py",
+		"/C/Dev/ecommerce/src/templates/contact.html",
+		"/C/Dev/ecommerce/src/templates/about.html",
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/trydjango1-11/src/profiles/forms.py",
 		"/C/Dev/trydjango1-11/src/profiles/views.py",
 		"/C/Dev/trydjango1-11/src/muypicky/urls.py",
@@ -691,16 +717,7 @@
 		"/C/Coding/python/diary/test.py",
 		"/C/Coding/python/radiationExposure.py",
 		"/C/Coding/python/test",
-		"/C/Coding/blog/code/base_drag.js",
-		"/C/Coding/blog/code/tool.js",
-		"/C/Coding/blog/code/base.js",
-		"/C/Coding/blog/index.js",
-		"/C/Coding/blog/index.css",
-		"/C/Coding/blog/index.html",
-		"/C/Users/Sylvia/version-control/git101/sylvia",
-		"/C/Users/Sylvia/version-control/create-your-own-adventure/sylvia.md",
-		"/C/Users/Sylvia/version-control/create-your-own-adventure/readme",
-		"/C/Users/Sylvia/game/newGame/phaser.min.js"
+		"/C/Coding/blog/code/base_drag.js"
 	],
 	"find":
 	{
@@ -741,8 +758,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3240,
+								3240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4773.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -827,7 +875,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 327.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
