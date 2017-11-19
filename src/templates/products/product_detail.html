@@ -1,6 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head_title %}Products | {{ block.super }}{% endblock head_title%}
+{% block content %}
+<div class='container'>
+	<div class='row'>
+		<div class='col'>
+			<div class='col-sm-4 col-sm-offset-4'>
 {{ object.title }}</br>
 {{ object.description }}</br>
 {{ object.price }}</br>
 {% if object.image %}
 <img src="{{ object.image.url }}">
 {% endif %}
+</div>
+</div>
+</div>
+{% endblock content %}
+
+

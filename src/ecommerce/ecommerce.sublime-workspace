@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"pre",
+				"product_pre_save_receiver"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"fe",
+				"featured"
+			],
+			[
+				"Pr",
+				"ProductQuerySet"
+			],
+			[
+				"get",
+				"get_queryset"
+			],
+			[
+				"product",
+				"product_list"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"P",
+				"Product"
+			],
+			[
+				"Pro",
+				"ProductManager"
+			],
+			[
+				"u",
+				"upload_image_path"
+			],
+			[
+				"fi",
+				"final_filename"
+			],
+			[
+				"base",
+				"base_name"
+			],
+			[
 				"url",
 				"urlpatterns"
 			],
@@ -116,10 +164,6 @@
 				"cleaned_data"
 			],
 			[
-				"P",
-				"PasswordInput"
-			],
-			[
 				"passw",
 				"password2"
 			],
@@ -152,10 +196,6 @@
 				"userprofile"
 			],
 			[
-				"u",
-				"userprofile"
-			],
-			[
 				"User",
 				"UserProfileForm"
 			],
@@ -164,16 +204,8 @@
 				"RegisterForm"
 			],
 			[
-				"get",
-				"get_user_model"
-			],
-			[
 				"object",
 				"object_list"
-			],
-			[
-				"Pro",
-				"ProfileManager"
 			],
 			[
 				"uer",
@@ -186,10 +218,6 @@
 			[
 				"us",
 				"user_to_toggle"
-			],
-			[
-				"de",
-				"default_user_profile"
 			],
 			[
 				"po",
@@ -486,57 +514,11 @@
 			[
 				"show",
 				"showPlot2"
-			],
-			[
-				"ro",
-				"robot_type"
-			],
-			[
-				"del",
-				"deltaY"
-			],
-			[
-				"delta",
-				"deltaY"
-			],
-			[
-				"drunk",
-				"drunkTestP2"
-			],
-			[
-				"steps",
-				"stepsTaken"
-			],
-			[
-				"drun",
-				"drunkTestP"
-			],
-			[
-				"ste",
-				"stepsTaken"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "settings.py",
-			"settings":
-			{
-				"buffer_size": 3382,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "urls.py",
-			"settings":
-			{
-				"buffer_size": 1291,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,21 +575,34 @@
 	[
 		"/C/Dev/ecommerce",
 		"/C/Dev/ecommerce/src",
-		"/C/Dev/ecommerce/src/ecommerce",
-		"/C/Dev/ecommerce/src/static_my_proj",
+		"/C/Dev/ecommerce/src/templates",
+		"/C/Dev/ecommerce/src/templates/base",
+		"/C/Dev/ecommerce/src/templates/products",
 		"/C/Dev/ecommerce/static_cdn"
 	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/src/templates/base/css.html",
+		"/C/Dev/ecommerce/src/templates/base/js.html",
+		"/C/Dev/ecommerce/src/templates/contact.html",
+		"/C/Dev/ecommerce/src/templates/base.html",
+		"/C/Dev/ecommerce/src/templates/about.html",
+		"/C/Dev/ecommerce/src/templates/home.html",
+		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
+		"/C/Dev/ecommerce/src/templates/products/product_list.html",
+		"/C/Dev/ecommerce/src/products/views.py",
+		"/C/Dev/ecommerce/src/products/models.py",
+		"/C/Dev/ecommerce/src/products/urls.py",
+		"/C/Dev/ecommerce/src/products/admin.py",
+		"/C/Dev/ecommerce/src/products/utils.py",
+		"/C/Dev/ecommerce/src/templates/product/product_detail.html",
+		"/C/Dev/ecommerce/src/templates/product/product_list.html",
+		"/C/Dev/ecommerce/src/ecommerce/urls.py",
 		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/ecommerce/src/ecommerce/views.py",
 		"/C/Dev/ecommerce/src/templates/auth/login.html",
-		"/C/Dev/ecommerce/src/ecommerce/urls.py",
 		"/C/Dev/ecommerce/src/templates/auth/register.html",
-		"/C/Dev/ecommerce/src/templates/home.html",
 		"/C/Dev/ecommerce/src/ecommerce/forms.py",
-		"/C/Dev/ecommerce/src/templates/contact.html",
-		"/C/Dev/ecommerce/src/templates/about.html",
 		"/C/Dev/trydjango1-11/src/profiles/forms.py",
 		"/C/Dev/trydjango1-11/src/profiles/views.py",
 		"/C/Dev/trydjango1-11/src/muypicky/urls.py",
@@ -714,19 +709,7 @@
 		"/C/Coding/python/### decision trees and tree search.py",
 		"/C/Coding/python/6001x/ProblemSet4/files_finger_exercises_L12_hand.py",
 		"/C/django/mysite/urls.py",
-		"/C/django/messageboard/urls.py",
-		"/C/django/messageboard/views.py",
-		"/C/django/messageboard/templates/messageboard/index.html",
-		"/C/django/messageboard/admin.py",
-		"/C/django/mysite/settings.py",
-		"/C/django/messageboard/models.py",
-		"/C/Coding/python/6001x/ProblemSet4/ps4b.py",
-		"/C/Coding/python/6001x/ProblemSet4/test_ps4a.py",
-		"/C/Coding/python/hangman/ps3_hangman.py",
-		"/C/Coding/python/diary/test.py",
-		"/C/Coding/python/radiationExposure.py",
-		"/C/Coding/python/test",
-		"/C/Coding/blog/code/base_drag.js"
+		"/C/django/messageboard/urls.py"
 	],
 	"find":
 	{
@@ -767,69 +750,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3382,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3374,
-								3374
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 3.0,
-						"translation.y": 4773.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1291,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1267,
-								1267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 340.0,
-						"translation.y": 903.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
