@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"url",
+				"urlpatterns"
+			],
+			[
 				"pas",
 				"password2"
 			],
@@ -510,10 +514,6 @@
 			[
 				"ste",
 				"stepsTaken"
-			],
-			[
-				"step",
-				"stepsTaken"
 			]
 		]
 	},
@@ -523,7 +523,16 @@
 			"file": "settings.py",
 			"settings":
 			{
-				"buffer_size": 3240,
+				"buffer_size": 3382,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "urls.py",
+			"settings":
+			{
+				"buffer_size": 1291,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -585,11 +594,12 @@
 		"/C/Dev/ecommerce",
 		"/C/Dev/ecommerce/src",
 		"/C/Dev/ecommerce/src/ecommerce",
-		"/C/Dev/ecommerce/src/templates",
-		"/C/Dev/ecommerce/src/templates/auth"
+		"/C/Dev/ecommerce/src/static_my_proj",
+		"/C/Dev/ecommerce/static_cdn"
 	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/ecommerce/src/ecommerce/views.py",
 		"/C/Dev/ecommerce/src/templates/auth/login.html",
 		"/C/Dev/ecommerce/src/ecommerce/urls.py",
@@ -598,7 +608,6 @@
 		"/C/Dev/ecommerce/src/ecommerce/forms.py",
 		"/C/Dev/ecommerce/src/templates/contact.html",
 		"/C/Dev/ecommerce/src/templates/about.html",
-		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/trydjango1-11/src/profiles/forms.py",
 		"/C/Dev/trydjango1-11/src/profiles/views.py",
 		"/C/Dev/trydjango1-11/src/muypicky/urls.py",
@@ -758,7 +767,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -767,15 +776,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3240,
+						"buffer_size": 3382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3240,
-								3240
+								3374,
+								3374
 							]
 						],
 						"settings":
@@ -784,8 +793,38 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 3.0,
 						"translation.y": 4773.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1267,
+								1267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 340.0,
+						"translation.y": 903.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
