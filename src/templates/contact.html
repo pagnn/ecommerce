@@ -5,15 +5,12 @@
   <div class='text-center'>
     <h1>{{ title }}</h1>
 </div>
-  <div class='container'>
     <div class='row'>
-      <div class='col'>
-        <div class='col-sm-6 '>
+      <div class='col-4 mx-auto'>
       <form method='POST'>{% csrf_token %}
         {{ form.as_p }}         
         <button type='submit' class='btn btn-dafault'>Submit</button>
       </form>
-      </div>
     </div>
   </div>
 {% endblock content %}

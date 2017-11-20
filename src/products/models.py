@@ -1,5 +1,6 @@
 import os
 import random
+from django.db.models import Q
 from django.db import models
 from django.db.models.signals import pre_save,post_save
 from django.urls import reverse
@@ -22,7 +23,14 @@ def upload_image_path(instance,filename):
 class ProductQuerySet(models.query.QuerySet):
 	def featured(self):
 		return self.filter(featured=True)
-
+	def active(self):
+		return self.filter(active=True)
+	def search(self,query):
+		lookups=(Q(title__icontains=query) |
+		 		Q(description__icontains=query) |
+		 		Q(price__icontains=query) |
+		 		Q(tag__title__icontains=query))
+		return self.filter(lookups).distinct()
 
 class ProductManager(models.Manager):
 	def get_queryset(self):
@@ -34,6 +42,9 @@ class ProductManager(models.Manager):
 		if qs.exists():
 			return qs.first()
 		return None
+	def search(self,query):
+		
+		return self.get_queryset().active().search(query)
 
 class Product(models.Model):
 	title			=models.CharField(max_length=120)
@@ -44,6 +55,7 @@ class Product(models.Model):
 	featured        =models.BooleanField(default=False)
 	active          =models.BooleanField(default=True)
 	timestamp       =models.DateTimeField(auto_now_add=True)
+
 	objects=ProductManager()
 	def get_absolute_url(self):
 		#return '/products/{slug}'.format(slug=self.slug)
