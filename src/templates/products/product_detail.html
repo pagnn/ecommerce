@@ -5,9 +5,9 @@
 <div class='container'>
 	<div class='row'>
 		<div class='col'>
-			<div class='col-sm-4 col-sm-offset-4'>
-{{ object.title }}</br>
-{{ object.description }}</br>
+<h1>{{ object.title }}</h1></br>
+{{ object.timestamp|timesince }}
+{{ object.description|linebreaks }}</br>
 {{ object.price }}</br>
 {% if object.image %}
 <img src="{{ object.image.url }}">
