@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"new_obj"
+			],
+			[
+				"cart",
+				"cart_obj"
+			],
+			[
+				"car",
+				"cart_obj"
+			],
+			[
+				"ca",
+				"cart_obj"
+			],
+			[
+				"user",
+				"user_obj"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"Cart",
+				"CartManager"
+			],
+			[
+				"create",
+				"cart_create"
+			],
+			[
 				"se",
 				"search"
 			],
@@ -88,10 +120,6 @@
 				"password2"
 			],
 			[
-				"re",
-				"register_form"
-			],
-			[
 				"is",
 				"is_valid"
 			],
@@ -157,10 +185,6 @@
 			],
 			[
 				"USER",
-				"user_form"
-			],
-			[
-				"user",
 				"user_form"
 			],
 			[
@@ -252,10 +276,6 @@
 				"validate_category"
 			],
 			[
-				"ca",
-				"CATEGORIES"
-			],
-			[
 				"res",
 				"restaurants"
 			],
@@ -326,10 +346,6 @@
 			[
 				"ad",
 				"adDrugs"
-			],
-			[
-				"new",
-				"newDrug"
 			],
 			[
 				"max",
@@ -498,27 +514,38 @@
 			[
 				"col",
 				"collision_prob"
-			],
-			[
-				"int",
-				"intDict"
-			],
-			[
-				"dict",
-				"dictKey"
-			],
-			[
-				"str",
-				"strToInt"
-			],
-			[
-				"roll",
-				"rollN"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Dev/ecommerce/src/carts/views.py",
+			"settings":
+			{
+				"buffer_size": 343,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Dev/ecommerce/src/products/models.py",
+			"settings":
+			{
+				"buffer_size": 2428,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Dev/ecommerce/src/carts/models.py",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -575,24 +602,28 @@
 	[
 		"/C/Dev/ecommerce",
 		"/C/Dev/ecommerce/src",
+		"/C/Dev/ecommerce/src/carts",
 		"/C/Dev/ecommerce/src/ecommerce",
 		"/C/Dev/ecommerce/src/products",
-		"/C/Dev/ecommerce/src/search",
-		"/C/Dev/ecommerce/src/tags"
+		"/C/Dev/ecommerce/src/templates"
 	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/src/carts/admin.py",
+		"/C/Dev/ecommerce/src/carts/models.py",
+		"/C/Dev/ecommerce/src/templates/carts/home.html",
+		"/C/Dev/ecommerce/src/carts/urls.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Dev/ecommerce/src/products/urls.py",
 		"/C/Dev/ecommerce/src/tags/models.py",
 		"/C/Dev/ecommerce/src/tags/admin.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/ecommerce/src/products/models.py",
 		"/C/Dev/ecommerce/src/templates/base/nav.html",
 		"/C/Dev/ecommerce/src/templates/search/snippets/search.html",
 		"/C/Dev/ecommerce/src/templates/search/view.html",
 		"/C/Dev/ecommerce/src/search/urls.py",
 		"/C/Dev/ecommerce/src/search/views.py",
-		"/C/Dev/ecommerce/src/ecommerce/urls.py",
-		"/C/Dev/ecommerce/src/products/urls.py",
 		"/C/Dev/ecommerce/src/templates/bootstrap/example.html",
 		"/C/Dev/ecommerce/src/templates/contact.html",
 		"/C/Dev/ecommerce/src/templates/home.html",
@@ -705,11 +736,7 @@
 		"/C/Coding/python/6001x/code_ProblemSet6/ps6_recursion.py",
 		"/C/Coding/python/6001x/RSSFeedFilter/project_util.py",
 		"/C/Coding/python/6001x/RSSFeedFilter/ps7_test.py",
-		"/C/Coding/python/6001x/RSSFeedFilter/filter.py",
-		"/C/Coding/python/6001x/AWordGame/files_finger_exercises_L12_hand.py",
-		"/C/Coding/python/6001x/RSSFeedFilter/feedparser.py",
-		"/C/Coding/python/6001x/ProblemSet7/ps7.py",
-		"/C/Coding/python/6001x/AWordGame/ps4b.py"
+		"/C/Coding/python/6001x/RSSFeedFilter/filter.py"
 	],
 	"find":
 	{
@@ -751,8 +778,94 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Dev/ecommerce/src/carts/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 258.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Dev/ecommerce/src/products/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2838.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Dev/ecommerce/src/carts/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 73.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
