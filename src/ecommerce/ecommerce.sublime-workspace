@@ -4,8 +4,88 @@
 		"selected_items":
 		[
 			[
+				"next",
+				"next_post"
+			],
+			[
+				"is",
+				"is_safe_url"
+			],
+			[
+				"re",
+				"redirect_path"
+			],
+			[
+				"register",
+				"register_page"
+			],
+			[
+				"login",
+				"login_page"
+			],
+			[
+				"for",
+				"formatted_total"
+			],
+			[
 				"new",
-				"new_obj"
+				"new_cart_obj"
+			],
+			[
+				"cart_",
+				"cart_total"
+			],
+			[
+				"shipp",
+				"shipping_total"
+			],
+			[
+				"post",
+				"post_save_cart_total_receiver"
+			],
+			[
+				"order",
+				"order_obj"
+			],
+			[
+				"ca",
+				"cart__id"
+			],
+			[
+				"pre",
+				"pre_save_order_receiver"
+			],
+			[
+				"ran",
+				"random_string_generator"
+			],
+			[
+				"O",
+				"ORDER_STATUS_CHOICES"
+			],
+			[
+				"P",
+				"Product"
+			],
+			[
+				"produc",
+				"product_id"
+			],
+			[
+				"C",
+				"Cart"
+			],
+			[
+				"pro",
+				"product_id"
+			],
+			[
+				"m",
+				"m2m_changed"
+			],
+			[
+				"in",
+				"instance"
 			],
 			[
 				"cart",
@@ -16,16 +96,8 @@
 				"cart_obj"
 			],
 			[
-				"ca",
-				"cart_obj"
-			],
-			[
 				"user",
 				"user_obj"
-			],
-			[
-				"re",
-				"request"
 			],
 			[
 				"Cart",
@@ -48,24 +120,12 @@
 				"TemplateView"
 			],
 			[
-				"login",
-				"login_url"
-			],
-			[
-				"pro",
-				"products_list_url"
-			],
-			[
 				"conatct",
 				"contact_url"
 			],
 			[
 				"home",
 				"home_url"
-			],
-			[
-				"pre",
-				"product_pre_save_receiver"
 			],
 			[
 				"de",
@@ -86,10 +146,6 @@
 			[
 				"if",
 				"if\tIf Condition"
-			],
-			[
-				"P",
-				"Product"
 			],
 			[
 				"Pro",
@@ -118,10 +174,6 @@
 			[
 				"p",
 				"password2"
-			],
-			[
-				"is",
-				"is_valid"
 			],
 			[
 				"regi",
@@ -158,10 +210,6 @@
 			[
 				"c",
 				"contact_form"
-			],
-			[
-				"C",
-				"ContactForm"
 			],
 			[
 				"B",
@@ -282,10 +330,6 @@
 			[
 				"Po",
 				"POST"
-			],
-			[
-				"ran",
-				"random"
 			],
 			[
 				"rl",
@@ -452,10 +496,6 @@
 				"sDev"
 			],
 			[
-				"in",
-				"inCircle"
-			],
-			[
 				"semi",
 				"semilogy"
 			],
@@ -474,78 +514,11 @@
 			[
 				"x",
 				"xAxis"
-			],
-			[
-				"min",
-				"minexp"
-			],
-			[
-				"plot",
-				"plotVowelProportionHistogram"
-			],
-			[
-				"Flip",
-				"flipSim"
-			],
-			[
-				"nu",
-				"numHeads"
-			],
-			[
-				"dif",
-				"diffSDs"
-			],
-			[
-				"ra",
-				"ratio"
-			],
-			[
-				"fl",
-				"flipPlot"
-			],
-			[
-				"d",
-				"diff"
-			],
-			[
-				"o",
-				"observe_prob"
-			],
-			[
-				"col",
-				"collision_prob"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Dev/ecommerce/src/carts/views.py",
-			"settings":
-			{
-				"buffer_size": 343,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/products/models.py",
-			"settings":
-			{
-				"buffer_size": 2428,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/carts/models.py",
-			"settings":
-			{
-				"buffer_size": 1193,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -601,25 +574,36 @@
 	"expanded_folders":
 	[
 		"/C/Dev/ecommerce",
-		"/C/Dev/ecommerce/src",
-		"/C/Dev/ecommerce/src/carts",
-		"/C/Dev/ecommerce/src/ecommerce",
-		"/C/Dev/ecommerce/src/products",
-		"/C/Dev/ecommerce/src/templates"
+		"/C/Dev/ecommerce/src"
 	],
 	"file_history":
 	[
-		"/C/Dev/ecommerce/src/carts/admin.py",
-		"/C/Dev/ecommerce/src/carts/models.py",
-		"/C/Dev/ecommerce/src/templates/carts/home.html",
-		"/C/Dev/ecommerce/src/carts/urls.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings.py",
-		"/C/Dev/ecommerce/src/ecommerce/urls.py",
-		"/C/Dev/ecommerce/src/products/urls.py",
-		"/C/Dev/ecommerce/src/tags/models.py",
-		"/C/Dev/ecommerce/src/tags/admin.py",
-		"/C/Dev/ecommerce/src/products/models.py",
 		"/C/Dev/ecommerce/src/templates/base/nav.html",
+		"/C/Dev/ecommerce/src/accounts/urls.py",
+		"/C/Dev/ecommerce/src/accounts/views.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Dev/ecommerce/src/templates/accounts/login.html",
+		"/C/Dev/ecommerce/src/ecommerce/views.py",
+		"/C/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Dev/ecommerce/src/ecommerce/forms.py",
+		"/C/Dev/ecommerce/src/carts/views.py",
+		"/C/Dev/ecommerce/src/ecommerce/utils.py",
+		"/C/Dev/ecommerce/src/templates/carts/home.html",
+		"/C/Dev/ecommerce/src/carts/models.py",
+		"/C/Dev/ecommerce/src/templates/carts/checkout.html",
+		"/C/Dev/ecommerce/src/carts/urls.py",
+		"/C/Dev/ecommerce/src/orders/models.py",
+		"/C/Dev/ecommerce/src/accounts/forms.py",
+		"/C/Dev/ecommerce/src/orders/admin.py",
+		"/C/Dev/ecommerce/src/products/models.py",
+		"/C/Dev/ecommerce/src/tags/models.py",
+		"/C/Dev/ecommerce/src/templates/base/css.html",
+		"/C/Dev/ecommerce/src/products/views.py",
+		"/C/Dev/ecommerce/src/templates/products/snippets/update_cart.html",
+		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
+		"/C/Dev/ecommerce/src/carts/admin.py",
+		"/C/Dev/ecommerce/src/products/urls.py",
+		"/C/Dev/ecommerce/src/tags/admin.py",
 		"/C/Dev/ecommerce/src/templates/search/snippets/search.html",
 		"/C/Dev/ecommerce/src/templates/search/view.html",
 		"/C/Dev/ecommerce/src/search/urls.py",
@@ -631,18 +615,13 @@
 		"/C/Dev/ecommerce/src/templates/auth/login.html",
 		"/C/Dev/ecommerce/src/templates/auth/register.html",
 		"/C/Dev/ecommerce/src/templates/products/snippets/card.html",
-		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
 		"/C/Dev/ecommerce/src/templates/products/product_list.html",
-		"/C/Dev/ecommerce/src/templates/base/css.html",
 		"/C/Dev/ecommerce/src/templates/base/js.html",
 		"/C/Dev/ecommerce/src/templates/about.html",
-		"/C/Dev/ecommerce/src/products/views.py",
 		"/C/Dev/ecommerce/src/products/admin.py",
 		"/C/Dev/ecommerce/src/products/utils.py",
 		"/C/Dev/ecommerce/src/templates/product/product_detail.html",
 		"/C/Dev/ecommerce/src/templates/product/product_list.html",
-		"/C/Dev/ecommerce/src/ecommerce/views.py",
-		"/C/Dev/ecommerce/src/ecommerce/forms.py",
 		"/C/Dev/trydjango1-11/src/profiles/forms.py",
 		"/C/Dev/trydjango1-11/src/profiles/views.py",
 		"/C/Dev/trydjango1-11/src/muypicky/urls.py",
@@ -726,21 +705,11 @@
 		"/C/Coding/python/6002x/Lesson1/loadWords/demo.py",
 		"/C/Coding/python/6002x/Lesson1/ProblemSet1/run_pkgtest.py",
 		"/C/Coding/python/6001x/CaesarCipher/encryption.py",
-		"/C/Coding/python/6002x/Lesson1/demo.py",
-		"/C/Coding/python/6001x/code_exam5.py",
-		"/C/Coding/python/6001x/FamilyTree.py",
-		"/C/Coding/python/6001x/AWordGame/game1.py",
-		"/C/Coding/python/6001x/hangman/hangman.py",
-		"/C/Coding/web/Bootstrap Website Starter Files/index.html",
-		"/C/Coding/python/6001x/code_ProblemSet6/ps6_encryption.py",
-		"/C/Coding/python/6001x/code_ProblemSet6/ps6_recursion.py",
-		"/C/Coding/python/6001x/RSSFeedFilter/project_util.py",
-		"/C/Coding/python/6001x/RSSFeedFilter/ps7_test.py",
-		"/C/Coding/python/6001x/RSSFeedFilter/filter.py"
+		"/C/Coding/python/6002x/Lesson1/demo.py"
 	],
 	"find":
 	{
-		"height": 55.0
+		"height": 62.0
 	},
 	"find_in_files":
 	{
@@ -778,100 +747,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Dev/ecommerce/src/carts/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 343,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								297,
-								297
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 258.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Dev/ecommerce/src/products/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2428,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2838.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Dev/ecommerce/src/carts/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 73.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 55.0
+		"height": 62.0
 	},
 	"input":
 	{
@@ -912,7 +795,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 104.0
+		"height": 118.0
 	},
 	"save_all_on_build": true,
 	"select_file":

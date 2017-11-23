@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head_title %}Cart | {{ block.super }}{% endblock head_title%}
+{% block content %}
+<h1>Checkout</h1>
+<p>Cart Total: {{ object.cart.total }}</p>
+<p>Shipping Total: {{ object.shipping_total }}</p>
+<p>Order Total: {{ object.total }}</p>
+{% endblock content %}
