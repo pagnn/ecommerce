@@ -18,16 +18,38 @@
   {% include 'base/js.html' %}
   <script type="text/javascript">
     $(document).ready(function(){
+      //auto-search//
       var searchForm=$('.search-form')
       var searchInput=searchForm.find("[name='q']")
-      var typingInterval=500
-      
+      var typingTimer
+      var typingInterval=1500
+      var searchBtn=searchForm.find("[type='submit']")
+      searchInput.keyup(function(event){
+        clearTimeout(typingTimer)
+        typingTimer=setTimeout(performSearch,typingInterval)
+        
+      })
+      searchInput.keydown(function(event){
+        clearTimeout(typingTimer)       
+      })
+      function displaySearching(){
+        searchBtn.addClass('disabled')
+        searchBtn.html("<i class='fa fa-spin fa-spinner'></i>Searching...")       
+      }
+      function performSearch(){
+        displaySearching()
+        var query=searchInput.val()
+        setTimeout(function(){
+          window.location.href='/search/?q='+query 
+        },1000)
+              
+      }
 
 
 
 
 
-
+      //ajax//
       var productForm=$('.form-product-ajax')
       productForm.submit(function(event){
         event.preventDefault();
