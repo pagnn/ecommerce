@@ -4,6 +4,110 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"form"
+			],
+			[
+				"Lo",
+				"LoginView"
+			],
+			[
+				"Login",
+				"LoginForm"
+			],
+			[
+				"form",
+				"form_class"
+			],
+			[
+				"crea",
+				"CreateView"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"ful",
+				"full_name"
+			],
+			[
+				"use",
+				"user_obj"
+			],
+			[
+				"u",
+				"UserAdminChangeForm"
+			],
+			[
+				"U",
+				"UserAdminCreationForm"
+			],
+			[
+				"is",
+				"is_staff"
+			],
+			[
+				"create",
+				"create_user"
+			],
+			[
+				"care",
+				"create_user"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"User",
+				"UserManage"
+			],
+			[
+				"s",
+				"staff"
+			],
+			[
+				"contact",
+				"contactFormBtn"
+			],
+			[
+				"js",
+				"json_data"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"c",
+				"contact_form"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ths",
+				"thisForm"
+			],
+			[
+				"errr",
+				"errordata"
+			],
+			[
+				"con",
+				"contactFormData"
+			],
+			[
 				"sea",
 				"searchBtn"
 			],
@@ -14,10 +118,6 @@
 			[
 				"typ",
 				"typingInterval"
-			],
-			[
-				"con",
-				"console"
 			],
 			[
 				"sear",
@@ -38,10 +138,6 @@
 			[
 				"JSON",
 				"json_data"
-			],
-			[
-				"re",
-				"refreshCartMethod"
 			],
 			[
 				"ca",
@@ -90,14 +186,6 @@
 			[
 				"bi",
 				"billing_profile"
-			],
-			[
-				"care",
-				"created"
-			],
-			[
-				"is",
-				"is_done"
 			],
 			[
 				"ch",
@@ -180,10 +268,6 @@
 				"BillingProfile"
 			],
 			[
-				"u",
-				"User"
-			],
-			[
 				"next",
 				"next_post"
 			],
@@ -194,10 +278,6 @@
 			[
 				"login",
 				"login_page"
-			],
-			[
-				"for",
-				"formatted_total"
 			],
 			[
 				"cart_",
@@ -238,10 +318,6 @@
 			[
 				"Cart",
 				"CartManager"
-			],
-			[
-				"create",
-				"cart_create"
 			],
 			[
 				"T",
@@ -292,10 +368,6 @@
 				"urlpatterns"
 			],
 			[
-				"pas",
-				"password2"
-			],
-			[
 				"p",
 				"password2"
 			],
@@ -322,14 +394,6 @@
 			[
 				"Text",
 				"TextInput"
-			],
-			[
-				"form",
-				"form-control"
-			],
-			[
-				"c",
-				"contact_form"
 			],
 			[
 				"ht",
@@ -388,16 +452,8 @@
 				"send_mail"
 			],
 			[
-				"ac",
-				"activation_key"
-			],
-			[
 				"userpro",
 				"userprofile"
-			],
-			[
-				"User",
-				"UserProfileForm"
 			],
 			[
 				"R",
@@ -458,138 +514,11 @@
 			[
 				"auto",
 				"auto_now_add"
-			],
-			[
-				"random",
-				"randomList2"
-			],
-			[
-				"num",
-				"numTimeSteps"
-			],
-			[
-				"VI",
-				"viruses"
-			],
-			[
-				"time",
-				"timesteps"
-			],
-			[
-				"tot",
-				"totVirus"
-			],
-			[
-				"to",
-				"totVirus"
-			],
-			[
-				"Re",
-				"ResistantVirus"
-			],
-			[
-				"vi",
-				"viruses"
-			],
-			[
-				"numTimeStepsW",
-				"numTimeStepsWithout"
-			],
-			[
-				"drug",
-				"drugResist"
-			],
-			[
-				"max",
-				"maxPop"
-			],
-			[
-				"No",
-				"NoChildException"
-			],
-			[
-				"mut",
-				"mutProb"
-			],
-			[
-				"resis",
-				"resistances"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Dev/ecommerce/src/templates/products/snippets/update_cart.html",
-			"settings":
-			{
-				"buffer_size": 459,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/templates/carts/remove_form.html",
-			"settings":
-			{
-				"buffer_size": 310,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/templates/products/product_detail.html",
-			"settings":
-			{
-				"buffer_size": 608,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 4303,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "urls.py",
-			"settings":
-			{
-				"buffer_size": 1815,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/templates/search/snippets/search.html",
-			"settings":
-			{
-				"buffer_size": 383,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/carts/views.py",
-			"settings":
-			{
-				"buffer_size": 3253,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/templates/carts/home.html",
-			"settings":
-			{
-				"buffer_size": 1318,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -645,27 +574,34 @@
 	"expanded_folders":
 	[
 		"/C/Dev/ecommerce",
-		"/C/Dev/ecommerce/src",
-		"/C/Dev/ecommerce/src/carts",
-		"/C/Dev/ecommerce/src/ecommerce",
-		"/C/Dev/ecommerce/src/templates",
-		"/C/Dev/ecommerce/src/templates/accounts",
-		"/C/Dev/ecommerce/src/templates/accounts/snippets",
-		"/C/Dev/ecommerce/src/templates/addresses",
-		"/C/Dev/ecommerce/src/templates/addresses/snippets",
-		"/C/Dev/ecommerce/src/templates/base",
-		"/C/Dev/ecommerce/src/templates/carts",
-		"/C/Dev/ecommerce/src/templates/products",
-		"/C/Dev/ecommerce/src/templates/products/snippets",
-		"/C/Dev/ecommerce/src/templates/search",
-		"/C/Dev/ecommerce/src/templates/search/snippets"
+		"/C/Dev/ecommerce/src"
 	],
 	"file_history":
 	[
-		"/C/Dev/ecommerce/src/templates/base/nav.html",
-		"/C/Dev/ecommerce/src/carts/views.py",
-		"/C/Dev/ecommerce/src/carts/urls.py",
+		"/C/Dev/ecommerce/src/accounts/models.py",
+		"/C/Dev/ecommerce/src/accounts/admin.py",
+		"/C/Dev/ecommerce/src/accounts/views.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Dev/ecommerce/src/accounts/forms.py",
+		"/C/Dev/ecommerce/src/accounts/urls.py",
+		"/C/Dev/ecommerce/src/templates/base.html",
+		"/C/Dev/ecommerce/src/templates/carts/remove_form.html",
+		"/C/Dev/ecommerce/src/templates/products/snippets/update_cart.html",
+		"/C/Dev/ecommerce/src/ecommerce/forms.py",
+		"/C/Dev/ecommerce/src/ecommerce/views.py",
+		"/C/Dev/ecommerce/src/templates/contact.html",
+		"/C/Dev/ecommerce/src/static_my_proj/js/ecommerce.js",
 		"/C/Dev/ecommerce/src/templates/base/js.html",
+		"/C/Dev/ecommerce/src/static_my_proj/js/csrf_ajax.js",
+		"/C/Dev/ecommerce/src/carts/views.py",
+		"/C/Dev/ecommerce/src/templates/products/snippets/card.html",
+		"/C/Dev/ecommerce/src/products/views.py",
+		"/C/Dev/ecommerce/src/templates/base/css.html",
+		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
+		"/C/Dev/ecommerce/src/templates/carts/home.html",
+		"/C/Dev/ecommerce/src/templates/search/snippets/search.html",
+		"/C/Dev/ecommerce/src/templates/base/nav.html",
+		"/C/Dev/ecommerce/src/carts/urls.py",
 		"/C/Dev/ecommerce/fasttracktojquery/index.html",
 		"/C/Dev/ecommerce/src/addresses/models.py",
 		"/C/Dev/ecommerce/src/templates/carts/checkout.html",
@@ -678,42 +614,25 @@
 		"/C/Dev/ecommerce/src/addresses/admin.py",
 		"/C/Dev/ecommerce/src/addresses/forms.py",
 		"/C/Dev/ecommerce/src/templates/addresses/form.html",
-		"/C/Dev/ecommerce/src/accounts/views.py",
 		"/C/Dev/ecommerce/src/billing/models.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings.py",
-		"/C/Dev/ecommerce/src/accounts/forms.py",
-		"/C/Dev/ecommerce/src/accounts/urls.py",
-		"/C/Dev/ecommerce/src/accounts/admin.py",
 		"/C/Dev/ecommerce/src/templates/accounts/snippets/form.html",
-		"/C/Dev/ecommerce/src/accounts/models.py",
 		"/C/Dev/ecommerce/src/billing/admin.py",
 		"/C/Dev/ecommerce/src/templates/accounts/login.html",
-		"/C/Dev/ecommerce/src/ecommerce/views.py",
-		"/C/Dev/ecommerce/src/ecommerce/forms.py",
 		"/C/Dev/ecommerce/src/ecommerce/utils.py",
-		"/C/Dev/ecommerce/src/templates/carts/home.html",
 		"/C/Dev/ecommerce/src/carts/models.py",
 		"/C/Dev/ecommerce/src/orders/admin.py",
 		"/C/Dev/ecommerce/src/products/models.py",
 		"/C/Dev/ecommerce/src/tags/models.py",
-		"/C/Dev/ecommerce/src/templates/base/css.html",
-		"/C/Dev/ecommerce/src/products/views.py",
-		"/C/Dev/ecommerce/src/templates/products/snippets/update_cart.html",
-		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
 		"/C/Dev/ecommerce/src/carts/admin.py",
 		"/C/Dev/ecommerce/src/products/urls.py",
 		"/C/Dev/ecommerce/src/tags/admin.py",
-		"/C/Dev/ecommerce/src/templates/search/snippets/search.html",
 		"/C/Dev/ecommerce/src/templates/search/view.html",
 		"/C/Dev/ecommerce/src/search/urls.py",
 		"/C/Dev/ecommerce/src/search/views.py",
 		"/C/Dev/ecommerce/src/templates/bootstrap/example.html",
-		"/C/Dev/ecommerce/src/templates/contact.html",
 		"/C/Dev/ecommerce/src/templates/home.html",
-		"/C/Dev/ecommerce/src/templates/base.html",
 		"/C/Dev/ecommerce/src/templates/auth/login.html",
 		"/C/Dev/ecommerce/src/templates/auth/register.html",
-		"/C/Dev/ecommerce/src/templates/products/snippets/card.html",
 		"/C/Dev/ecommerce/src/templates/products/product_list.html",
 		"/C/Dev/ecommerce/src/templates/about.html",
 		"/C/Dev/ecommerce/src/products/admin.py",
@@ -786,10 +705,7 @@
 		"/C/Coding/python/6002x/Week2/ProblemSet2/robot.py",
 		"/C/Coding/python/6002x/Week2/ProblemSet2/ps2.py",
 		"/C/Coding/python/6002x/Week2/ProblemSet2/ps2_verify_movement27.pyc",
-		"/C/Coding/python/6002x/Week5/lectureCode_L17_code.py",
-		"/C/Coding/python/6002x/Week4/ProblemSet3/ps3b.py",
-		"/C/Coding/python/6002x/Week5/error.py",
-		"/C/Coding/python/6002x/Week4/ProblemSet3/ps3b_precompiled_27.pyc"
+		"/C/Coding/python/6002x/Week5/lectureCode_L17_code.py"
 	],
 	"find":
 	{
@@ -809,6 +725,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"()\n",
 			"()",
 			"post",
 			"redirect",
@@ -831,243 +748,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Dev/ecommerce/src/templates/products/snippets/update_cart.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								216,
-								216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Dev/ecommerce/src/templates/carts/remove_form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								181,
-								181
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Dev/ecommerce/src/templates/products/product_detail.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 608,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Dev/ecommerce/src/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4303,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1248,
-								1248
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "urls.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1815,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 903.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Dev/ecommerce/src/templates/search/snippets/search.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								357,
-								288
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Dev/ecommerce/src/carts/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								576,
-								576
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 774.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Dev/ecommerce/src/templates/carts/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								621,
-								621
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
