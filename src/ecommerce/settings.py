@@ -26,7 +26,8 @@ SECRET_KEY = 'zcf2dsz4-1w#02i@xp%d@rq2r84g1(($13f-+v((7+$^mcx6r2'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+FORCE_SESSION_TO_ONE=False
+FORCE_INACTIVEUSER_ENDSESSION=False
 
 # Application definition
 
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     'accounts',
     'billing',
     'addresses',
+    'analytics'
 ]
 
 AUTH_USER_MODEL='accounts.User'

@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"F",
+				"FORCE_INACTIVEUSER_ENDSESSION"
+			],
+			[
+				"GET",
+				"getattr"
+			],
+			[
+				"en",
+				"ended"
+			],
+			[
+				"end",
+				"end_session"
+			],
+			[
+				"pos",
+				"post_save_user"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"User",
+				"UserSession"
+			],
+			[
+				"s",
+				"session_key"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"user",
+				"user_logged_in_receiver"
+			],
+			[
+				"Ob",
+				"ObjectViewed"
+			],
+			[
+				"obj",
+				"object_viewed_signal"
+			],
+			[
+				"con",
+				"content_object"
+			],
+			[
+				"OB",
+				"object_id"
+			],
+			[
+				"CON",
+				"content_type"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
 				"for",
 				"form"
 			],
@@ -64,14 +128,6 @@
 				"model"
 			],
 			[
-				"User",
-				"UserManage"
-			],
-			[
-				"s",
-				"staff"
-			],
-			[
 				"contact",
 				"contactFormBtn"
 			],
@@ -104,16 +160,8 @@
 				"errordata"
 			],
 			[
-				"con",
-				"contactFormData"
-			],
-			[
 				"sea",
 				"searchBtn"
-			],
-			[
-				"se",
-				"searchForm"
 			],
 			[
 				"typ",
@@ -126,10 +174,6 @@
 			[
 				"search",
 				"searchForm"
-			],
-			[
-				"C",
-				"CartItemRemoveForm"
 			],
 			[
 				"cart",
@@ -258,10 +302,6 @@
 			[
 				"get",
 				"get_or_create"
-			],
-			[
-				"user",
-				"user_created_receiver"
 			],
 			[
 				"B",
@@ -474,51 +514,29 @@
 			[
 				"us",
 				"user_to_toggle"
-			],
-			[
-				"po",
-				"post_save_user_reveiver"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"I",
-				"ItemCreateView"
-			],
-			[
-				"Item",
-				"ItemCreateView"
-			],
-			[
-				"va",
-				"validate_category"
-			],
-			[
-				"res",
-				"restaurants"
-			],
-			[
-				"Po",
-				"POST"
-			],
-			[
-				"rl",
-				"rl_pre_save_receiver"
-			],
-			[
-				"slug",
-				"slugify"
-			],
-			[
-				"auto",
-				"auto_now_add"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Dev/ecommerce/src/analytics/models.py",
+			"settings":
+			{
+				"buffer_size": 3084,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "settings.py",
+			"settings":
+			{
+				"buffer_size": 3648,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -574,14 +592,24 @@
 	"expanded_folders":
 	[
 		"/C/Dev/ecommerce",
-		"/C/Dev/ecommerce/src"
+		"/C/Dev/ecommerce/src",
+		"/C/Dev/ecommerce/src/accounts",
+		"/C/Dev/ecommerce/src/analytics",
+		"/C/Dev/ecommerce/src/ecommerce",
+		"/C/Dev/ecommerce/src/products"
 	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/src/accounts/views.py",
+		"/C/Dev/ecommerce/src/accounts/signals.py",
+		"/C/Dev/ecommerce/src/analytics/signals.py",
+		"/C/Dev/ecommerce/src/products/views.py",
+		"/C/Dev/ecommerce/src/analytics/mixins.py",
+		"/C/Dev/ecommerce/src/analytics/utils.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Dev/ecommerce/src/analytics/admin.py",
 		"/C/Dev/ecommerce/src/accounts/models.py",
 		"/C/Dev/ecommerce/src/accounts/admin.py",
-		"/C/Dev/ecommerce/src/accounts/views.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/ecommerce/src/accounts/forms.py",
 		"/C/Dev/ecommerce/src/accounts/urls.py",
 		"/C/Dev/ecommerce/src/templates/base.html",
@@ -595,7 +623,6 @@
 		"/C/Dev/ecommerce/src/static_my_proj/js/csrf_ajax.js",
 		"/C/Dev/ecommerce/src/carts/views.py",
 		"/C/Dev/ecommerce/src/templates/products/snippets/card.html",
-		"/C/Dev/ecommerce/src/products/views.py",
 		"/C/Dev/ecommerce/src/templates/base/css.html",
 		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
 		"/C/Dev/ecommerce/src/templates/carts/home.html",
@@ -700,16 +727,11 @@
 		"/C/Users/Sylvia/Downloads/ProblemSet2/ps2.py",
 		"/C/Coding/python/6002x/Week2/RobotSimulation/robot.py",
 		"/C/Coding/python/6002x/Week2/RobotSimulation/visualize.py",
-		"/C/Coding/python/6002x/Week2/RobotSimulation/.git/COMMIT_EDITMSG",
-		"/C/Coding/python/6002x/Week2/RobotSimulation/visualize.pyc",
-		"/C/Coding/python/6002x/Week2/ProblemSet2/robot.py",
-		"/C/Coding/python/6002x/Week2/ProblemSet2/ps2.py",
-		"/C/Coding/python/6002x/Week2/ProblemSet2/ps2_verify_movement27.pyc",
-		"/C/Coding/python/6002x/Week5/lectureCode_L17_code.py"
+		"/C/Coding/python/6002x/Week2/RobotSimulation/.git/COMMIT_EDITMSG"
 	],
 	"find":
 	{
-		"height": 55.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
@@ -748,14 +770,73 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Dev/ecommerce/src/analytics/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 90.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 90.0,
+						"translation.y": 555.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 55.0
+		"height": 49.0
 	},
 	"input":
 	{
@@ -796,7 +877,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 104.0
+		"height": 92.0
 	},
 	"save_all_on_build": true,
 	"select_file":
