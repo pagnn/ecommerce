@@ -19,6 +19,7 @@ from django.views.generic import TemplateView
 from django.conf.urls import url,include
 from django.contrib import admin
 
+
 from .views import home_page,about_page,contact_page
 from addresses.views import checkout_address_create_view,checkout_address_reuse_view
 urlpatterns = [
@@ -33,6 +34,7 @@ urlpatterns = [
     url(r'^carts/',include('carts.urls',namespace='carts')),
     url(r'^accounts/',include('accounts.urls',namespace='accounts')),
     url(r'^billing/',include('billing.urls',namespace='billing')),
+    url(r'^marketing/',include('marketing.urls',namespace='marketing')),
 ]
 if settings.DEBUG:
     urlpatterns=urlpatterns+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
