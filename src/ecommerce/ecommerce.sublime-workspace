@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"F",
+				"False"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"cr",
+				"csrf_exempt"
+			],
+			[
+				"mail",
+				"mailchimp_sub"
+			],
+			[
+				"mai",
+				"mailchimp_sub"
+			],
+			[
+				"is",
+				"is_sub"
+			],
+			[
+				"M",
+				"MarketingPreference"
+			],
+			[
+				"get",
+				"get_context_data"
+			],
+			[
+				"mark",
+				"marketing_pref_create_receiver"
+			],
+			[
+				"sub",
+				"subscribed"
+			],
+			[
+				"hash",
+				"hashed_email"
+			],
+			[
+				"has",
+				"hashed_email"
+			],
+			[
+				"mem",
+				"member_email"
+			],
+			[
 				"ch",
 				"check_valid_status"
 			],
@@ -18,14 +70,6 @@
 			[
 				"api",
 				"api_url"
-			],
-			[
-				"re",
-				"requests"
-			],
-			[
-				"M",
-				"MAILCHIMP_DATA_CENTER"
 			],
 			[
 				"de",
@@ -48,16 +92,8 @@
 				"billing_prfile"
 			],
 			[
-				"is",
-				"is_authenticated"
-			],
-			[
 				"cards",
 				"card_qs"
-			],
-			[
-				"get",
-				"get_cards"
 			],
 			[
 				"auto",
@@ -198,10 +234,6 @@
 			[
 				"cu",
 				"customer"
-			],
-			[
-				"F",
-				"FORCE_INACTIVEUSER_ENDSESSION"
 			],
 			[
 				"GET",
@@ -364,10 +396,6 @@
 				"navbarCount"
 			],
 			[
-				"sub",
-				"submitSpan"
-			],
-			[
 				"add",
 				"added"
 			],
@@ -486,72 +514,16 @@
 			[
 				"produc",
 				"product_id"
-			],
-			[
-				"m",
-				"m2m_changed"
-			],
-			[
-				"in",
-				"instance"
-			],
-			[
-				"Cart",
-				"CartManager"
-			],
-			[
-				"T",
-				"TemplateView"
-			],
-			[
-				"conatct",
-				"contact_url"
-			],
-			[
-				"home",
-				"home_url"
-			],
-			[
-				"fe",
-				"featured"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "settings.py",
+			"file": "/C/Dev/ecommerce/src/requirements/archive__2017-11-28__3.txt",
 			"settings":
 			{
-				"buffer_size": 3897,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/marketing/models.py",
-			"settings":
-			{
-				"buffer_size": 897,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/marketing/utils.py",
-			"settings":
-			{
-				"buffer_size": 1203,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Dev/ecommerce/src/marketing/admin.py",
-			"settings":
-			{
-				"buffer_size": 142,
-				"encoding": "UTF-8",
+				"buffer_size": 244,
 				"line_ending": "Windows"
 			}
 		}
@@ -612,22 +584,34 @@
 		"/C/Dev/ecommerce",
 		"/C/Dev/ecommerce/src",
 		"/C/Dev/ecommerce/src/ecommerce",
-		"/C/Dev/ecommerce/src/marketing",
-		"/C/Dev/ecommerce/src/orders",
-		"/C/Dev/ecommerce/src/static_my_proj",
-		"/C/Dev/ecommerce/src/static_my_proj/css",
-		"/C/Dev/ecommerce/src/static_my_proj/js",
-		"/C/Dev/ecommerce/src/templates",
-		"/C/Dev/ecommerce/src/templates/base",
-		"/C/Dev/ecommerce/src/templates/billing",
-		"/C/Dev/ecommerce/src/templates/carts",
-		"/C/Dev/ecommerce/static_cdn",
-		"/C/Dev/ecommerce/static_cdn/static_root",
-		"/C/Dev/ecommerce/static_cdn/static_root/css",
-		"/C/Dev/ecommerce/static_cdn/static_root/js"
+		"/C/Dev/ecommerce/src/ecommerce/settings",
+		"/C/Dev/ecommerce/src/requirements"
 	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/src/runtime.txt",
+		"/C/Dev/ecommerce/src/ecommerce/settings/__init__.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings/base.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings/production.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings/local.py",
+		"/C/Dev/ecommerce/src/.gitignore",
+		"/C/Dev/ecommerce/.gitignore",
+		"/C/Dev/ecommerce/src/Procfile",
+		"/C/Dev/ecommerce/src/ecommerce/__init__.py",
+		"/C/Dev/ecommerce/src/ecommerce/wsgi.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings/__base__.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Dev/ecommerce/src/marketing/models.py",
+		"/C/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Dev/ecommerce/src/marketing/urls.py",
+		"/C/Dev/ecommerce/src/templates/base.html",
+		"/C/Dev/ecommerce/src/templates/marketing/form.html",
+		"/C/Dev/ecommerce/src/marketing/forms.py",
+		"/C/Dev/ecommerce/src/marketing/views.py",
+		"/C/Dev/ecommerce/src/templates/addresses/snippets/form.html",
+		"/C/Dev/ecommerce/src/marketing/mixins.py",
+		"/C/Dev/ecommerce/src/marketing/admin.py",
+		"/C/Dev/ecommerce/src/marketing/utils.py",
 		"/C/Dev/ecommerce/src/billing/models.py",
 		"/C/Dev/ecommerce/src/carts/views.py",
 		"/C/Dev/ecommerce/src/templates/carts/checkout.html",
@@ -635,9 +619,7 @@
 		"/C/Dev/ecommerce/src/templates/base/js_templates.html",
 		"/C/Dev/ecommerce/src/static_my_proj/js/ecommerce_billing.js",
 		"/C/Dev/ecommerce/src/billing/admin.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/ecommerce/src/billing/views.py",
-		"/C/Dev/ecommerce/src/templates/base.html",
 		"/C/Dev/ecommerce/src/templates/base/js.html",
 		"/C/Dev/ecommerce/src/static_my_proj/js/strip_payment_method.js",
 		"/C/Dev/ecommerce/src/billing/urls.py",
@@ -645,7 +627,6 @@
 		"/C/Dev/ecommerce/src/static_my_proj/css/payment_method.css",
 		"/C/Dev/ecommerce/static_cdn/static_root/css/payment_method.css",
 		"/C/Dev/ecommerce/src/analytics/models.py",
-		"/C/Dev/ecommerce/src/ecommerce/urls.py",
 		"/C/Dev/ecommerce/src/analytics/migrations/0003_auto_20171127_0906.py",
 		"/C/Dev/ecommerce/src/accounts/views.py",
 		"/C/Dev/ecommerce/src/accounts/signals.py",
@@ -677,7 +658,6 @@
 		"/C/Dev/ecommerce/src/templates/carts/checkout_done.html",
 		"/C/Dev/ecommerce/src/templates/addresses/snippets/pre_address.html",
 		"/C/Dev/ecommerce/src/addresses/views.py",
-		"/C/Dev/ecommerce/src/templates/addresses/snippets/form.html",
 		"/C/Dev/ecommerce/src/addresses/admin.py",
 		"/C/Dev/ecommerce/src/addresses/forms.py",
 		"/C/Dev/ecommerce/src/templates/addresses/form.html",
@@ -736,30 +716,11 @@
 		"/C/Dev/trydjango1-11/src/restaurants/views.py",
 		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurant_detailview.html",
 		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
-		"/C/Dev/trydjango1-11/src/restaurants/urls.py",
-		"/C/Dev/trydjango1-11/src/templates/form.html",
-		"/C/Dev/trydjango1-11/src/restaurants/forms.py",
-		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
-		"/C/Dev/trydjango1-11/src/menus/forms.py",
-		"/C/Dev/trydjango1-11/src/menus/admin.py",
-		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/form.html",
-		"/C/Dev/trydjango1-11/src/menus/templates/menus/form.html",
-		"/C/Dev/trydjango1-11/src/menus/templates/items_list.py",
-		"/C/Dev/trydjango1-11/src/restaurants/utils.py",
-		"/C/Dev/trydjango1-11/src/restaurants/validators.py",
-		"/C/Dev/trydjango1-11/src/restaurants/admin.py",
-		"/C/Dev/trydjango1-11/src/templates/contact.html",
-		"/C/Coding/python/demo.py",
-		"/C/Dev/trydjango1-11/src/templates/about.html",
-		"/C/Dev/trydjango1-11/src/templates/snippets/sidebar.html",
-		"/C/Dev/trydjango1-11/src/muypicky/wsgi.py",
-		"/C/Dev/trydjango1-11/src/muypicky/settings/production.py",
-		"/C/Dev/trydjango1-11/src/manage.py",
-		"/C/Dev/trydjango1-11/src/muypicky/settings/__init__.py"
+		"/C/Dev/trydjango1-11/src/restaurants/urls.py"
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
@@ -800,121 +761,35 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "settings.py",
-					"semi_transient": false,
+					"file": "/C/Dev/ecommerce/src/requirements/archive__2017-11-28__3.txt",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3897,
+						"buffer_size": 244,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1129,
-								1119
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1224.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Dev/ecommerce/src/marketing/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 897,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								880,
-								880
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 443.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Dev/ecommerce/src/marketing/utils.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1075,
-								1075
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 510.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Dev/ecommerce/src/marketing/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								141,
-								141
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -922,7 +797,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 46.0
+		"height": 49.0
 	},
 	"input":
 	{
@@ -963,7 +838,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 86.0
+		"height": 92.0
 	},
 	"save_all_on_build": true,
 	"select_file":
