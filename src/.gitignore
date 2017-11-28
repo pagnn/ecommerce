@@ -14,8 +14,9 @@ requirements/
 
 
 # Virtualenv related
-bin/
-include/
+Lib/
+Scripts/
+Include/
 pip-selfcheck.json
 
 # Django related 
