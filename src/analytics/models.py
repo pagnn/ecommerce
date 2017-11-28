@@ -44,7 +44,7 @@ def object_viewed_receiver(sender,instance,request,*args,**kwargs):
 object_viewed_signal.connect(object_viewed_receiver)
 
 class UserSession(models.Model):
-	user=models.ForeignKey(User)
+	user=models.ForeignKey(User,null=True,blank=True)
 	ip_address=models.CharField(max_length=220,blank=True,null=True)
 	session_key=models.CharField(max_length=100,blank=True,null=True)
 	timestamp=models.DateTimeField(auto_now_add=True)

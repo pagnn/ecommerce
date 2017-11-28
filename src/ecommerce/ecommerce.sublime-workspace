@@ -4,6 +4,186 @@
 		"selected_items":
 		[
 			[
+				"de",
+				"defaultClass"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"new",
+				"newClass"
+			],
+			[
+				"card",
+				"card_post_save_receiver"
+			],
+			[
+				"bi",
+				"billing_prfile"
+			],
+			[
+				"re",
+				"reverse"
+			],
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"cards",
+				"card_qs"
+			],
+			[
+				"get",
+				"get_cards"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"st",
+				"STRIPE_SECRET_KEY"
+			],
+			[
+				"pe",
+				"property"
+			],
+			[
+				"char",
+				"charge_msg"
+			],
+			[
+				"order",
+				"order_obj"
+			],
+			[
+				"Cha",
+				"ChargeManager"
+			],
+			[
+				"se",
+				"seller_message"
+			],
+			[
+				"sel",
+				"seller_message"
+			],
+			[
+				"out",
+				"outcome_type"
+			],
+			[
+				"cus",
+				"customer_id"
+			],
+			[
+				"str",
+				"stripe_id"
+			],
+			[
+				"ca",
+				"cards"
+			],
+			[
+				"f",
+				"False"
+			],
+			[
+				"DEF",
+				"default"
+			],
+			[
+				"M",
+				"Manager"
+			],
+			[
+				"model",
+				"Model"
+			],
+			[
+				"C",
+				"Card"
+			],
+			[
+				"ex",
+				"exp_year"
+			],
+			[
+				"stri",
+				"stripe_card_response"
+			],
+			[
+				"stripe",
+				"stripe_id"
+			],
+			[
+				"bili",
+				"billing_profile"
+			],
+			[
+				"succ",
+				"successMsg"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"next",
+				"next_url"
+			],
+			[
+				"data",
+				"data-next-url"
+			],
+			[
+				"da",
+				"data-token"
+			],
+			[
+				"su",
+				"successMsg"
+			],
+			[
+				"ne",
+				"next_"
+			],
+			[
+				"net",
+				"next_url"
+			],
+			[
+				"pa",
+				"paymentMethodEndpoint"
+			],
+			[
+				"pay",
+				"paymentForm"
+			],
+			[
+				"payment",
+				"paymentForm"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pre",
+				"pre_save_billing_profile_receiver"
+			],
+			[
+				"cu",
+				"customer"
+			],
+			[
 				"F",
 				"FORCE_INACTIVEUSER_ENDSESSION"
 			],
@@ -24,20 +204,12 @@
 				"post_save_user"
 			],
 			[
-				"se",
-				"session"
-			],
-			[
 				"User",
 				"UserSession"
 			],
 			[
 				"s",
 				"session_key"
-			],
-			[
-				"C",
-				"CharField"
 			],
 			[
 				"user",
@@ -50,10 +222,6 @@
 			[
 				"obj",
 				"object_viewed_signal"
-			],
-			[
-				"con",
-				"content_object"
 			],
 			[
 				"OB",
@@ -112,20 +280,12 @@
 				"UserAdminCreationForm"
 			],
 			[
-				"is",
-				"is_staff"
-			],
-			[
 				"create",
 				"create_user"
 			],
 			[
 				"care",
 				"create_user"
-			],
-			[
-				"mode",
-				"model"
 			],
 			[
 				"contact",
@@ -146,10 +306,6 @@
 			[
 				"c",
 				"contact_form"
-			],
-			[
-				"re",
-				"request"
 			],
 			[
 				"ths",
@@ -182,10 +338,6 @@
 			[
 				"JSON",
 				"json_data"
-			],
-			[
-				"ca",
-				"cartTable"
 			],
 			[
 				"car",
@@ -228,10 +380,6 @@
 				"address_line_1"
 			],
 			[
-				"bi",
-				"billing_profile"
-			],
-			[
 				"ch",
 				"check_done"
 			],
@@ -268,10 +416,6 @@
 				"OrderManager"
 			],
 			[
-				"order",
-				"order_obj"
-			],
-			[
 				"action",
 				"action_url"
 			],
@@ -292,24 +436,12 @@
 				"GuestEmail"
 			],
 			[
-				"new",
-				"new_guest_email"
-			],
-			[
 				"Email",
 				"EmailField"
 			],
 			[
-				"get",
-				"get_or_create"
-			],
-			[
 				"B",
 				"BillingProfile"
-			],
-			[
-				"next",
-				"next_post"
 			],
 			[
 				"register",
@@ -330,10 +462,6 @@
 			[
 				"post",
 				"post_save_cart_total_receiver"
-			],
-			[
-				"pre",
-				"pre_save_order_receiver"
 			],
 			[
 				"ran",
@@ -372,10 +500,6 @@
 				"home_url"
 			],
 			[
-				"de",
-				"default"
-			],
-			[
 				"fe",
 				"featured"
 			],
@@ -390,149 +514,16 @@
 			[
 				"if",
 				"if\tIf Condition"
-			],
-			[
-				"Pro",
-				"ProductManager"
-			],
-			[
-				"fi",
-				"final_filename"
-			],
-			[
-				"base",
-				"base_name"
-			],
-			[
-				"url",
-				"urlpatterns"
-			],
-			[
-				"p",
-				"password2"
-			],
-			[
-				"regi",
-				"register_form"
-			],
-			[
-				"f",
-				"forms"
-			],
-			[
-				"lO",
-				"LoginForm"
-			],
-			[
-				"fo",
-				"form"
-			],
-			[
-				"lo",
-				"login_form"
-			],
-			[
-				"Text",
-				"TextInput"
-			],
-			[
-				"ht",
-				"html_"
-			],
-			[
-				"H",
-				"HttpResponse"
-			],
-			[
-				"usern",
-				"username"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"USER",
-				"user_form"
-			],
-			[
-				"Register",
-				"RegisterForm"
-			],
-			[
-				"pass",
-				"password2"
-			],
-			[
-				"clean",
-				"cleaned_data"
-			],
-			[
-				"passw",
-				"password2"
-			],
-			[
-				"Passwor",
-				"Password"
-			],
-			[
-				"from",
-				"from_email"
-			],
-			[
-				"acti",
-				"activation_key"
-			],
-			[
-				"g",
-				"gmail"
-			],
-			[
-				"send",
-				"send_mail"
-			],
-			[
-				"userpro",
-				"userprofile"
-			],
-			[
-				"R",
-				"RegisterForm"
-			],
-			[
-				"object",
-				"object_list"
-			],
-			[
-				"uer",
-				"username"
-			],
-			[
-				"profile",
-				"profile_"
-			],
-			[
-				"us",
-				"user_to_toggle"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Dev/ecommerce/src/analytics/models.py",
+			"file": "/C/Dev/ecommerce/src/billing/models.py",
 			"settings":
 			{
-				"buffer_size": 3084,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "settings.py",
-			"settings":
-			{
-				"buffer_size": 3648,
+				"buffer_size": 5544,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -574,7 +565,7 @@
 	},
 	"console":
 	{
-		"height": 186.0,
+		"height": 244.0,
 		"history":
 		[
 			"k"
@@ -594,36 +585,63 @@
 		"/C/Dev/ecommerce",
 		"/C/Dev/ecommerce/src",
 		"/C/Dev/ecommerce/src/accounts",
-		"/C/Dev/ecommerce/src/analytics",
+		"/C/Dev/ecommerce/src/addresses",
+		"/C/Dev/ecommerce/src/billing",
+		"/C/Dev/ecommerce/src/carts",
 		"/C/Dev/ecommerce/src/ecommerce",
-		"/C/Dev/ecommerce/src/products"
+		"/C/Dev/ecommerce/src/orders",
+		"/C/Dev/ecommerce/src/static_my_proj",
+		"/C/Dev/ecommerce/src/static_my_proj/css",
+		"/C/Dev/ecommerce/src/static_my_proj/js",
+		"/C/Dev/ecommerce/src/templates",
+		"/C/Dev/ecommerce/src/templates/base",
+		"/C/Dev/ecommerce/src/templates/billing",
+		"/C/Dev/ecommerce/src/templates/carts",
+		"/C/Dev/ecommerce/static_cdn",
+		"/C/Dev/ecommerce/static_cdn/static_root",
+		"/C/Dev/ecommerce/static_cdn/static_root/css",
+		"/C/Dev/ecommerce/static_cdn/static_root/js"
 	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/src/carts/views.py",
+		"/C/Dev/ecommerce/src/templates/carts/checkout.html",
+		"/C/Dev/ecommerce/src/templates/billing/payment_method.html",
+		"/C/Dev/ecommerce/src/templates/base/js_templates.html",
+		"/C/Dev/ecommerce/src/static_my_proj/js/ecommerce_billing.js",
+		"/C/Dev/ecommerce/src/billing/admin.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Dev/ecommerce/src/billing/views.py",
+		"/C/Dev/ecommerce/src/templates/base.html",
+		"/C/Dev/ecommerce/src/templates/base/js.html",
+		"/C/Dev/ecommerce/src/static_my_proj/js/strip_payment_method.js",
+		"/C/Dev/ecommerce/src/billing/urls.py",
+		"/C/Dev/ecommerce/src/templates/base/css.html",
+		"/C/Dev/ecommerce/src/static_my_proj/css/payment_method.css",
+		"/C/Dev/ecommerce/static_cdn/static_root/css/payment_method.css",
+		"/C/Dev/ecommerce/src/billing/models.py",
+		"/C/Dev/ecommerce/src/analytics/models.py",
+		"/C/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Dev/ecommerce/src/analytics/migrations/0003_auto_20171127_0906.py",
 		"/C/Dev/ecommerce/src/accounts/views.py",
 		"/C/Dev/ecommerce/src/accounts/signals.py",
 		"/C/Dev/ecommerce/src/analytics/signals.py",
 		"/C/Dev/ecommerce/src/products/views.py",
 		"/C/Dev/ecommerce/src/analytics/mixins.py",
 		"/C/Dev/ecommerce/src/analytics/utils.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/ecommerce/src/analytics/admin.py",
 		"/C/Dev/ecommerce/src/accounts/models.py",
 		"/C/Dev/ecommerce/src/accounts/admin.py",
 		"/C/Dev/ecommerce/src/accounts/forms.py",
 		"/C/Dev/ecommerce/src/accounts/urls.py",
-		"/C/Dev/ecommerce/src/templates/base.html",
 		"/C/Dev/ecommerce/src/templates/carts/remove_form.html",
 		"/C/Dev/ecommerce/src/templates/products/snippets/update_cart.html",
 		"/C/Dev/ecommerce/src/ecommerce/forms.py",
 		"/C/Dev/ecommerce/src/ecommerce/views.py",
 		"/C/Dev/ecommerce/src/templates/contact.html",
 		"/C/Dev/ecommerce/src/static_my_proj/js/ecommerce.js",
-		"/C/Dev/ecommerce/src/templates/base/js.html",
 		"/C/Dev/ecommerce/src/static_my_proj/js/csrf_ajax.js",
-		"/C/Dev/ecommerce/src/carts/views.py",
 		"/C/Dev/ecommerce/src/templates/products/snippets/card.html",
-		"/C/Dev/ecommerce/src/templates/base/css.html",
 		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
 		"/C/Dev/ecommerce/src/templates/carts/home.html",
 		"/C/Dev/ecommerce/src/templates/search/snippets/search.html",
@@ -631,19 +649,15 @@
 		"/C/Dev/ecommerce/src/carts/urls.py",
 		"/C/Dev/ecommerce/fasttracktojquery/index.html",
 		"/C/Dev/ecommerce/src/addresses/models.py",
-		"/C/Dev/ecommerce/src/templates/carts/checkout.html",
 		"/C/Dev/ecommerce/src/orders/models.py",
 		"/C/Dev/ecommerce/src/templates/carts/checkout_done.html",
 		"/C/Dev/ecommerce/src/templates/addresses/snippets/pre_address.html",
-		"/C/Dev/ecommerce/src/ecommerce/urls.py",
 		"/C/Dev/ecommerce/src/addresses/views.py",
 		"/C/Dev/ecommerce/src/templates/addresses/snippets/form.html",
 		"/C/Dev/ecommerce/src/addresses/admin.py",
 		"/C/Dev/ecommerce/src/addresses/forms.py",
 		"/C/Dev/ecommerce/src/templates/addresses/form.html",
-		"/C/Dev/ecommerce/src/billing/models.py",
 		"/C/Dev/ecommerce/src/templates/accounts/snippets/form.html",
-		"/C/Dev/ecommerce/src/billing/admin.py",
 		"/C/Dev/ecommerce/src/templates/accounts/login.html",
 		"/C/Dev/ecommerce/src/ecommerce/utils.py",
 		"/C/Dev/ecommerce/src/carts/models.py",
@@ -717,25 +731,15 @@
 		"/C/Dev/trydjango1-11/src/muypicky/wsgi.py",
 		"/C/Dev/trydjango1-11/src/muypicky/settings/production.py",
 		"/C/Dev/trydjango1-11/src/manage.py",
-		"/C/Dev/trydjango1-11/src/muypicky/settings/__init__.py",
-		"/C/Dev/trydjango1-11/src/muypicky/settings/__pycache__/local",
-		"/C/Coding/python/test.py",
-		"/C/Coding/python/exercise.py",
-		"/C/Users/Sylvia/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Sylvia/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Coding/web/Abstract/abstract.html",
-		"/C/Users/Sylvia/Downloads/ProblemSet2/ps2.py",
-		"/C/Coding/python/6002x/Week2/RobotSimulation/robot.py",
-		"/C/Coding/python/6002x/Week2/RobotSimulation/visualize.py",
-		"/C/Coding/python/6002x/Week2/RobotSimulation/.git/COMMIT_EDITMSG"
+		"/C/Dev/trydjango1-11/src/muypicky/settings/__init__.py"
 	],
 	"find":
 	{
-		"height": 49.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
-		"height": 237.0,
+		"height": 363.0,
 		"where_history":
 		[
 			"C:\\Dev\\trydjango1-11\\src",
@@ -747,6 +751,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DateTime",
+			"datetime.datetime",
 			"()\n",
 			"()",
 			"post",
@@ -770,62 +776,33 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Dev/ecommerce/src/analytics/models.py",
+					"file": "/C/Dev/ecommerce/src/billing/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3084,
+						"buffer_size": 5544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								453,
-								606
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 90.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3648,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								899,
-								899
+								3803,
+								3803
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 90.0,
-						"translation.y": 555.0,
+						"translation.x": 0.0,
+						"translation.y": 3570.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -836,11 +813,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 49.0
+		"height": 46.0
 	},
 	"input":
 	{
-		"height": 83.0
+		"height": 143.0
 	},
 	"layout":
 	{
@@ -867,7 +844,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 86.0
+		"height": 52.0
 	},
 	"output.find_results":
 	{
@@ -877,7 +854,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 92.0
+		"height": 86.0
 	},
 	"save_all_on_build": true,
 	"select_file":

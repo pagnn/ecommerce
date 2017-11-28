@@ -32,6 +32,7 @@ urlpatterns = [
     url(r'^search/',include('search.urls',namespace='search')),
     url(r'^carts/',include('carts.urls',namespace='carts')),
     url(r'^accounts/',include('accounts.urls',namespace='accounts')),
+    url(r'^billing/',include('billing.urls',namespace='billing')),
 ]
 if settings.DEBUG:
     urlpatterns=urlpatterns+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
