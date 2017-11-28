@@ -26,13 +26,18 @@ SECRET_KEY = 'zcf2dsz4-1w#02i@xp%d@rq2r84g1(($13f-+v((7+$^mcx6r2'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
 FORCE_SESSION_TO_ONE=False
 FORCE_INACTIVEUSER_ENDSESSION=False
 
 
-
 STRIPE_SECRET_KEY='sk_test_ZP7A7uDCNapWFDAj0MFwejdR'
 STRIPE_PUB_KEY='pk_test_OHADWNQQHJbzdqNAMtlMYOjo'
+
+MAILCHIMP_API_KEY="194b569674d04904bfe2c7c25f8b9f3e-us17"
+MAILCHIMP_DATA_CENTER="us17"
+MAILCHIMP_EMAIL_LIST_ID="91a3c56c97"
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -50,7 +55,8 @@ INSTALLED_APPS = [
     'accounts',
     'billing',
     'addresses',
-    'analytics'
+    'analytics',
+    'marketing',
 ]
 
 AUTH_USER_MODEL='accounts.User'
