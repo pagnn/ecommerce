@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"is_active"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"Lo",
+				"LoginRequiredMixin"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
 				"db",
 				"db_from_env"
 			],
@@ -26,10 +42,6 @@
 			[
 				"mai",
 				"mailchimp_sub"
-			],
-			[
-				"is",
-				"is_sub"
 			],
 			[
 				"M",
@@ -292,10 +304,6 @@
 				"form"
 			],
 			[
-				"Lo",
-				"LoginView"
-			],
-			[
 				"Login",
 				"LoginForm"
 			],
@@ -492,10 +500,6 @@
 				"register_page"
 			],
 			[
-				"login",
-				"login_page"
-			],
-			[
 				"cart_",
 				"cart_total"
 			],
@@ -510,24 +514,11 @@
 			[
 				"ran",
 				"random_string_generator"
-			],
-			[
-				"P",
-				"Product"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "settings/production.py",
-			"settings":
-			{
-				"buffer_size": 4496,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
 		{
 			"file": "settings/__init__.py",
 			"settings":
@@ -538,10 +529,19 @@
 			}
 		},
 		{
-			"file": "/C/Dev/ecommerce/requirements.txt",
+			"file": "settings/base.py",
 			"settings":
 			{
-				"buffer_size": 214,
+				"buffer_size": 4335,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "settings/local.py",
+			"settings":
+			{
+				"buffer_size": 4356,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -556,28 +556,27 @@
 			}
 		},
 		{
-			"file": "settings/base.py",
+			"file": "/C/Dev/ecommerce/src/products/fixture/products.json",
 			"settings":
 			{
-				"buffer_size": 4277,
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "settings/local.py",
+			"file": "settings/production.py",
 			"settings":
 			{
-				"buffer_size": 4277,
-				"encoding": "UTF-8",
+				"buffer_size": 4554,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Dev/ecommerce/Procfile",
+			"file": "/C/Dev/ecommerce/src/Procfile",
 			"settings":
 			{
-				"buffer_size": 41,
+				"buffer_size": 30,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -644,21 +643,34 @@
 	],
 	"file_history":
 	[
+		"/C/Dev/ecommerce/Procfile",
+		"/C/Dev/ecommerce/src/templates/accounts/home.html",
+		"/C/Dev/ecommerce/src/accounts/models.py",
+		"/C/Dev/ecommerce/src/accounts/forms.py",
+		"/C/Dev/ecommerce/src/templates/registration/emails/verify.txt",
+		"/C/Dev/ecommerce/src/templates/registration/emails/verify.html",
+		"/C/Dev/ecommerce/src/accounts/admin.py",
+		"/C/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Dev/ecommerce/src/accounts/views.py",
+		"/C/Dev/ecommerce/src/accounts/passwords/urls.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings/local.py",
+		"/C/Dev/ecommerce/src/accounts/passwords/__init__.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings/base.py",
+		"/C/Dev/ecommerce/src/ecommerce/settings/production.py",
+		"/C/Dev/ecommerce/src/accounts/urls.py",
+		"/C/Dev/ecommerce/src/templates/base/nav.html",
+		"/C/Dev/ecommerce/src/ecommerce/settings/__init__.py",
+		"/C/Dev/ecommerce/src/ecommerce/wsgi.py",
+		"/C/Dev/ecommerce/requirements.txt",
 		"/C/Dev/ecommerce/src/requirements.txt",
 		"/C/Dev/ecommerce/src/Procfile",
 		"/C/Dev/ecommerce/src/runtime.txt",
-		"/C/Dev/ecommerce/src/ecommerce/settings/__init__.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings/base.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings/production.py",
-		"/C/Dev/ecommerce/src/ecommerce/settings/local.py",
 		"/C/Dev/ecommerce/src/.gitignore",
 		"/C/Dev/ecommerce/.gitignore",
 		"/C/Dev/ecommerce/src/ecommerce/__init__.py",
-		"/C/Dev/ecommerce/src/ecommerce/wsgi.py",
 		"/C/Dev/ecommerce/src/ecommerce/settings/__base__.py",
 		"/C/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Dev/ecommerce/src/marketing/models.py",
-		"/C/Dev/ecommerce/src/ecommerce/urls.py",
 		"/C/Dev/ecommerce/src/marketing/urls.py",
 		"/C/Dev/ecommerce/src/templates/base.html",
 		"/C/Dev/ecommerce/src/templates/marketing/form.html",
@@ -684,17 +696,12 @@
 		"/C/Dev/ecommerce/static_cdn/static_root/css/payment_method.css",
 		"/C/Dev/ecommerce/src/analytics/models.py",
 		"/C/Dev/ecommerce/src/analytics/migrations/0003_auto_20171127_0906.py",
-		"/C/Dev/ecommerce/src/accounts/views.py",
 		"/C/Dev/ecommerce/src/accounts/signals.py",
 		"/C/Dev/ecommerce/src/analytics/signals.py",
 		"/C/Dev/ecommerce/src/products/views.py",
 		"/C/Dev/ecommerce/src/analytics/mixins.py",
 		"/C/Dev/ecommerce/src/analytics/utils.py",
 		"/C/Dev/ecommerce/src/analytics/admin.py",
-		"/C/Dev/ecommerce/src/accounts/models.py",
-		"/C/Dev/ecommerce/src/accounts/admin.py",
-		"/C/Dev/ecommerce/src/accounts/forms.py",
-		"/C/Dev/ecommerce/src/accounts/urls.py",
 		"/C/Dev/ecommerce/src/templates/carts/remove_form.html",
 		"/C/Dev/ecommerce/src/templates/products/snippets/update_cart.html",
 		"/C/Dev/ecommerce/src/ecommerce/forms.py",
@@ -706,7 +713,6 @@
 		"/C/Dev/ecommerce/src/templates/products/product_detail.html",
 		"/C/Dev/ecommerce/src/templates/carts/home.html",
 		"/C/Dev/ecommerce/src/templates/search/snippets/search.html",
-		"/C/Dev/ecommerce/src/templates/base/nav.html",
 		"/C/Dev/ecommerce/src/carts/urls.py",
 		"/C/Dev/ecommerce/fasttracktojquery/index.html",
 		"/C/Dev/ecommerce/src/addresses/models.py",
@@ -764,14 +770,7 @@
 		"/C/Dev/trydjango1-11/src/profiles/admin.py",
 		"/C/Dev/trydjango1-11/src/restaurants/models.py",
 		"/C/Dev/trydjango1-11/src/menus/models.py",
-		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_list.html",
-		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_detailview.html",
-		"/C/Dev/trydjango1-11/src/menus/urls.py",
-		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_detail.html",
-		"/C/Dev/trydjango1-11/src/templates/snippets/snippet_form.html",
-		"/C/Dev/trydjango1-11/src/restaurants/views.py",
-		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurant_detailview.html",
-		"/C/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html"
+		"/C/Dev/trydjango1-11/src/menus/templates/menus/item_list.html"
 	],
 	"find":
 	{
@@ -791,6 +790,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"accounts:",
+			"accounts:login",
 			"DateTime",
 			"datetime.datetime",
 			"()\n",
@@ -816,41 +817,11 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "settings/production.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4496,
-								4496
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5619.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "settings/__init__.py",
 					"semi_transient": false,
 					"settings":
@@ -862,8 +833,8 @@
 						"selection":
 						[
 							[
-								63,
-								63
+								89,
+								89
 							]
 						],
 						"settings":
@@ -874,32 +845,64 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Dev/ecommerce/requirements.txt",
+					"buffer": 1,
+					"file": "settings/base.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 214,
+						"buffer_size": 4335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								74,
-								74
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5439.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "settings/local.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3996.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -918,8 +921,8 @@
 						"selection":
 						[
 							[
-								345,
-								345
+								396,
+								396
 							]
 						],
 						"settings":
@@ -927,87 +930,85 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 111.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Dev/ecommerce/src/products/fixture/products.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "settings/production.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3663.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "settings/base.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1080,
-								1080
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 888.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "settings/local.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								482,
-								482
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
 					"buffer": 6,
-					"file": "/C/Dev/ecommerce/Procfile",
+					"file": "/C/Dev/ecommerce/src/Procfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 41,
+						"buffer_size": 30,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								29,
+								29
 							]
 						],
 						"settings":
@@ -1018,7 +1019,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
