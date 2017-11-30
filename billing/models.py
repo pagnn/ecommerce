@@ -7,7 +7,8 @@ from accounts.models import GuestEmail
 # Create your models here.
 User=settings.AUTH_USER_MODEL
 
-stripe.api_key='sk_test_ZP7A7uDCNapWFDAj0MFwejdR'
+STRIPE_SECRET_KEY=getattr(settings,'STRIPE_SECRET_KEY','sk_test_ZP7A7uDCNapWFDAj0MFwejdR')
+stripe.api_key=STRIPE_SECRET_KEY
 
 class BillingProfileManager(models.Manager):
 	def new_or_get(self,request):
