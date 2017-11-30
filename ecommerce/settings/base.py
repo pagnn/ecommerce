@@ -47,6 +47,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #third party
+    'storages',
+    #our apps
     'products',
     'search',
     'tags',
@@ -162,3 +165,8 @@ CSRF_COOKIE_SECURE              = False
 SECURE_HSTS_SECONDS             = None
 SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
 SECURE_FRAME_DENY               = False
+
+AWS_GROUP_NAME='PAGNN_eCommerce_Group'
+AWS_USERNAME='pagnn-ecommerce-user'
+AWS_ACCESS_KEY_ID='AKIAJRUA6OMI25U7UKWA'
+AWS_SECRET_KEY='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'
