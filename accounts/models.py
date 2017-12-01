@@ -126,7 +126,7 @@ class EmailActivation(models.Model):
 	def send_activation(self):
 		if not self.activated and not self.forced_expired:
 			base_url=getattr(settings,'BASE_URL','https://www.pagnn-ecommerce.herokuapp.com/')
-			path_=reverse("account:email-activate",kwargs={'key':self.key})
+			path_=reverse("accounts:email-activate",kwargs={'key':self.key})
 			path='{base}{path}'.format(base=base_url,path=path_)
 			context={
 				'path':path,
