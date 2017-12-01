@@ -1,6 +1,9 @@
 from django.db import models
 from django.core.mail import send_mail
+from django.conf import settings
 from django.template.loader import get_template
+from django.db.models.signals import pre_save,post_save
+from ecommerce.utils import unique_key_generator
 from django.contrib.auth.models import (
 		AbstractBaseUser,BaseUserManager
 	)
@@ -19,7 +22,7 @@ class UserManager(BaseUserManager):
 		user_obj.set_password(password)
 		user_obj.staff=is_staff
 		user_obj.admin=is_admin
-		user_obj.active=is_active
+		user_obj.is_active=is_active
 		user_obj.full_name=full_name
 		user_obj.save(using=self._db)
 		return user_obj
@@ -44,7 +47,6 @@ class UserManager(BaseUserManager):
 class User(AbstractBaseUser):
 	email = models.EmailField(unique=True,max_length=255)
 	full_name=models.CharField(max_length=255,blank=True,null=True)
-	# active = models.BooleanField(default=True)
 	is_active=models.BooleanField(default=True)
 	staff = models.BooleanField(default=False)
 	admin = models.BooleanField(default=False)
@@ -74,6 +76,71 @@ class User(AbstractBaseUser):
 	@property
 	def is_admin(self):
 		return self.admin
+
+
+class EmailActivation(models.Model):
+	user= models.ForeignKey(User)
+	email=models.EmailField()
+	key=models.CharField(max_length=120,blank=True,null=True)
+	activated=models.BooleanField(default=False)
+	forced_expired=models.BooleanField(default=False)
+	expires=models.IntegerField(default=7)
+	timestamp=models.DateTimeField(auto_now_add=True)
+	updated=models.DateTimeField(auto_now=True)
+
+
+	def __str__(self):
+		return self.email
+
+	def regenerate(self):
+		self.key=None
+		self.save()
+		if self.key is not None:
+			return True
+		return False
+	def send_activation(self):
+		if not self.activated and not self.forced_expired:
+			base_url=getattr(settings,'BASE_URL','https://www.pagnn-ecommerce.herokuapp.com/')
+			path_=self.key
+			path='{base}{path}'.format(base=base_url,path=path_)
+			context={
+				'path':path,
+				'email':self.email
+			}
+			txt_=get_template("registration/emails/verify.txt").render(context)
+			html_=get_template("registration/emails/verify.html").render(context)
+			subject='One-Click Email Verification'
+			from_email=settings.DEFAULT_FROM_EMAIL
+			recipient_list=[self.email]
+			sent_mail=send_mail(
+				subject=subject,
+				message=txt_,
+				from_email=from_email,
+				recipient_list=recipient_list,
+				html_message=html_,
+				fail_silently=False,
+				)
+
+			return sent_mail
+		return False
+
+
+
+def pre_save_email_activation(sender,instance,*args,**kwargs):
+	if not instance.activated and not instance.forced_expired:
+		if not instance.key:
+			key=unique_key_generator(instance)
+			instance.key=key
+pre_save.connect(pre_save_email_activation,sender=EmailActivation)
+
+
+def post_save_user_receiver(sender,instance,created,*args,**kwargs):
+	if created:
+		obj,is_created=EmailActivation.objects.create(user=instance,email=instance.email)
+		print (obj)
+		obj.send_activation()
+
+post_save.connect(post_save_user_receiver,sender=User)
 
 
 

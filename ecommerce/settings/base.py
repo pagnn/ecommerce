@@ -26,7 +26,7 @@ SECRET_KEY = 'zcf2dsz4-1w#02i@xp%d@rq2r84g1(($13f-+v((7+$^mcx6r2'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+BASE_URL='http://127.0.0.1:8000/'
 EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_HOST_USER='findpagnn@gmail.com'
@@ -79,6 +79,7 @@ LOGIN_URL='/login/'
 LOGIN_REDIRECT_UTL='/'
 LOGOUT_URL='/logout/'
 LOGOUT_REDIRECT_URL='/login/'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -4,8 +4,11 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth import get_user_model
 
 # Register your models here.
-from .models import GuestEmail
+from .models import GuestEmail,EmailActivation
 from .forms import UserAdminCreationForm,UserAdminChangeForm
+
+
+admin.site.register(EmailActivation)
 
 User=get_user_model()
 
