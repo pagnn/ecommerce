@@ -6,10 +6,11 @@ from django.utils.decorators import method_decorator
 from django.shortcuts import render,redirect
 from django.utils.http import is_safe_url
 from django.utils.safestring import mark_safe
+from django.views.generic.edit import FormMixin
 from django.views.generic import CreateView,FormView,DetailView,View
 from django.contrib import messages
 from django.core.urlresolvers import reverse
-from .forms import LoginForm,RegisterForm,GuestForm
+from .forms import LoginForm,RegisterForm,GuestForm,ReactiveEmailForm
 from .models import GuestEmail,EmailActivation
 from .signals import user_logged_in_signal
 
@@ -67,7 +68,9 @@ class LoginView(FormView):
 
 User=get_user_model()
 
-class EmailActivationView(View):
+class EmailActivationView(FormMixin,View):
+	success_url='/login/'
+	form_class=ReactiveEmailForm
 	def get(self,request,key,*args,**kwargs):
 		qs=EmailActivation.objects.filter(key__iexact=key)
 		confirmed_qs=qs.confirmable()
@@ -86,10 +89,25 @@ class EmailActivationView(View):
 				return redirect('/login/')
 
 
-
-		return render(request,'registration/emails/activate-error.html',{})
+		context={
+			'form':self.get_form(),
+		}
+		return render(request,'registration/emails/activate-error.html',context)
 	def post(self,request,*args,**kwargs):
-		pass
+		form=self.get_form()
+		if form.is_valid():
+			return self.form_valid(form)
+		else:
+			return self.form_invalid(form)
+	def form_valid(self,form):
+		msg="Activation sent.Please check your email."
+		messages.success(self.request,mark_safe(msg))
+		email=form.cleaned_data.get('email')
+		obj=EmailActivation.objects.email_exist(email).first()
+		user=obj.user
+		new_activation=EmailActivation.objects.create(user=user,email=email)
+		new_activation.send_activation()
+		return super(EmailActivationView,self).form_valid(form)
 
 class RegisterView(CreateView):
 	form_class=RegisterForm

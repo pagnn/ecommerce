@@ -1,11 +1,14 @@
 from datetime import timedelta
 from django.db import models
+from django.utils.safestring import mark_safe
 from django.core.urlresolvers import reverse
 from django.core.mail import send_mail
 from django.conf import settings
 from django.utils import timezone
 from django.template.loader import get_template
 from django.db.models.signals import pre_save,post_save
+from django.db.models import Q
+
 from ecommerce.utils import unique_key_generator
 from django.contrib.auth.models import (
 		AbstractBaseUser,BaseUserManager
@@ -89,6 +92,8 @@ class EmailActivationManager(models.Manager):
 		return EmailActivationQuerySet(self.model,using=self._db)
 	def confirmable(self):
 		return self.get_queryset().confirmable()
+	def email_exist(self,email):
+		return self.get_queryset().filter(Q(email=email) | Q(user__email=email)).filter(activated=False)
 class EmailActivation(models.Model):
 	user= models.ForeignKey(User)
 	email=models.EmailField()
