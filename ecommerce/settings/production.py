@@ -34,7 +34,7 @@ EMAIL_PORT=587
 EMAIL_USE_TLS=True
 DEFAULT_FROM_EMAIL='Python eCommerce <findpagnn@gmail.com>'
 
-MANAGERS=[('Pagnn','findpagnn@gmail.com')]
+MANAGERS=(('Pagnn','findpagnn@gmail.com'))
 ADMINS=MANAGERS
 
 FORCE_SESSION_TO_ONE=False
