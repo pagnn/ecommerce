@@ -5,10 +5,12 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.shortcuts import render,redirect
 from django.utils.http import is_safe_url
+from django.utils.safestring import mark_safe
 from django.views.generic import CreateView,FormView,DetailView,View
 from django.contrib import messages
+from django.core.urlresolvers import reverse
 from .forms import LoginForm,RegisterForm,GuestForm
-from .models import GuestEmail
+from .models import GuestEmail,EmailActivation
 from .signals import user_logged_in_signal
 
 	
@@ -66,9 +68,26 @@ class LoginView(FormView):
 User=get_user_model()
 
 class EmailActivationView(View):
-	def get(self,request,*args,*kwargs):
+	def get(self,request,key,*args,**kwargs):
+		qs=EmailActivation.objects.filter(key__iexact=key)
+		confirmed_qs=qs.confirmable()
+		if confirmed_qs.count() == 1:
+			obj=confirmed_qs.first()
+			obj.activate()
+			msg="Your email has been confirmed.Please Login."
+			messages.success(request,mark_safe(msg))
+			return redirect("/login/")
+		else:
+			activated_qs=qs.filter(activated=True)
+			if activated_qs.exists():
+				reset_link=reverse("password_reset")
+				msg="Your email has already been confirmed.Do you need to <a href='{link}'>reset your password</a>?".format(link=reset_link)
+				messages.success(request,mark_safe(msg))
+				return redirect('/login/')
 
-		return render(request,'registration/email-activate-error.html',{})
+
+
+		return render(request,'registration/emails/activate-error.html',{})
 	def post(self,request,*args,**kwargs):
 		pass
 
