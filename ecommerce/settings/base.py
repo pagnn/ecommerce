@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 
 EMAIL_HOST='stmp.gmail.com'
 EMAIL_HOST_USER='findpagnn@gmail.com'
-EMAIL_HOST_PASSWORD='Dasbeste.115'
+EMAIL_HOST_PASSWORD='dasbeste.115'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 DEFAULT_FROM_EMAIL='Python eCommerce <findpagnn@gmail.com>'
