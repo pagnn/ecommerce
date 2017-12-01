@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.shortcuts import render,redirect
 from django.utils.http import is_safe_url
-from django.views.generic import CreateView,FormView,DetailView
+from django.views.generic import CreateView,FormView,DetailView,View
 from django.contrib import messages
 from .forms import LoginForm,RegisterForm,GuestForm
 from .models import GuestEmail
