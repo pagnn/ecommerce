@@ -64,8 +64,16 @@ class LoginView(FormView):
 		return super(LoginView,self).form_invalid(form)
 
 User=get_user_model()
+
+class EmailActivationView(View):
+	def get(self,request,*args,*kwargs):
+
+		return render(request,'registration/email-activate-error.html',{})
+	def post(self,request,*args,**kwargs):
+		pass
+
 class RegisterView(CreateView):
 	form_class=RegisterForm
 	template_name='accounts/register.html'
-	success_url="login"
+	success_url="/login/"
 
