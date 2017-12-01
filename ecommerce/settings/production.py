@@ -26,10 +26,10 @@ EMAIL_HOSTPASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 DEBUG = False
 
 ALLOWED_HOSTS = ['.herokuapp.com']
-
+EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_HOST_USER='findpagnn@gmail.com'
-EMAIL_HOST_PASSWORD='dasbeste.115'
+EMAIL_HOST_PASSWORD='kzropxcsrjdrykcz'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 DEFAULT_FROM_EMAIL='Python eCommerce <findpagnn@gmail.com>'
