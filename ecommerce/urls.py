@@ -19,19 +19,23 @@ from django.views.generic import TemplateView,RedirectView
 from django.conf.urls import url,include
 from django.contrib import admin
 from django.contrib.auth.views import LogoutView
-from accounts.views import guest_register_page,LoginView,RegisterView
+from accounts.views import GuestRegisterView,LoginView,RegisterView
 
 
 from .views import home_page,about_page,contact_page
-from addresses.views import checkout_address_create_view,checkout_address_reuse_view
+from addresses.views import AddressCreateView,AddressUpdateView,AddressListView,checkout_address_create_view,checkout_address_reuse_view
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login/$',LoginView.as_view(),name='login'),
     url(r'^logout/$',LogoutView.as_view(),name='logout'),
     url(r'^register/$',RegisterView.as_view(),name='register'),
-    url(r'^guest/$',guest_register_page,name='guest'),
+    url(r'^guest/$',GuestRegisterView.as_view(),name='guest'),
     url(r'^contact/$', contact_page,name='contact'),
     url(r'^about/$', about_page,name='about'),
+    url(r'^addresses/$',AddressListView.as_view(),name='addresses'),
+    url(r'^addresses/create/$',AddressCreateView.as_view(),name='address-create'),   
+    url(r'^addresses/(?P<pk>\d+)/$',AddressUpdateView.as_view(),name='address-update'),
+    url(r'^address/$',RedirectView.as_view(url='/addresses')),
     url(r'^checkout/address/create/$',checkout_address_create_view,name='address_create'),
     url(r'^checkout/address/reuse/$',checkout_address_reuse_view,name='address_reuse'),
     url(r'^$', home_page,name='home'),
@@ -43,6 +47,7 @@ urlpatterns = [
     url(r'^accounts/$',RedirectView.as_view(url='/account')),
     url(r'^billing/',include('billing.urls',namespace='billing')),
     url(r'^marketing/',include('marketing.urls',namespace='marketing')),
+    url(r'^orders/',include('orders.urls',namespace='orders')),
 ]
 if settings.DEBUG:
     urlpatterns=urlpatterns+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)

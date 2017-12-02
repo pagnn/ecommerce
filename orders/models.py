@@ -2,7 +2,7 @@ import math
 from django.db import models
 from ecommerce.utils import unique_order_id_generator
 from django.db.models.signals import pre_save,post_save
-
+from django.core.urlresolvers import reverse
 from carts.models import Cart
 from billing.models import BillingProfile
 from addresses.models import Address
@@ -14,7 +14,17 @@ ORDER_STATUS_CHOICES = (
 	('refunded','Refunded'),
 )
 # Create your models here.
+class OrderManagerQuerySet(models.query.QuerySet):
+	def by_billing_profile(self,request):
+		my_profile,created=BillingProfile.objects.new_or_get(request)
+		return self.filter(billing_profile=my_profile)
+	def not_created(self):
+		return self.exclude(status='created')
 class OrderManager(models.Manager):
+	def get_queryset(self):
+		return OrderManagerQuerySet(self.model,using=self._db)
+	def by_billing_profile(self,request):
+		return self.get_queryset().by_billing_profile(request)
 	def new_or_get(self,billing_profile,cart_obj):
 		qs=self.get_queryset().filter(billing_profile=billing_profile,cart=cart_obj,active=True,status='created')
 		if qs.count() == 1:
@@ -25,17 +35,34 @@ class OrderManager(models.Manager):
 			obj=self.model.objects.create(billing_profile=billing_profile,cart=cart_obj)
 		return obj,created
 class Order(models.Model):
-	order_id         =models.CharField(max_length=120,blank=True)
-	billing_profile  =models.ForeignKey(BillingProfile,null=True,blank=True)
-	shipping_address =models.ForeignKey(Address,related_name='shipping_address',null=True,blank=True)
-	billing_address  =models.ForeignKey(Address,name='billing_address',null=True,blank=True)
-	cart             =models.ForeignKey(Cart)
-	status			 =models.CharField(max_length=120,default='created',choices=ORDER_STATUS_CHOICES)
-	shipping_total   =models.DecimalField(decimal_places=2,max_digits=20,default=5.99)
-	total      		 =models.DecimalField(decimal_places=2,max_digits=20,default=0.00)
-	active           =models.BooleanField(default=True)
-	
-	objects          =OrderManager()
+	order_id               =models.CharField(max_length=120,blank=True)
+	billing_profile        =models.ForeignKey(BillingProfile,null=True,blank=True)
+	shipping_address 	   =models.ForeignKey(Address,related_name='shipping_address',null=True,blank=True)
+	billing_address        =models.ForeignKey(Address,name='billing_address',null=True,blank=True)
+	billing_address_final  =models.TextField(blank=True,null=True)
+	shipping_address_final =models.TextField(blank=True,null=True)
+	cart                   =models.ForeignKey(Cart)
+	status			       =models.CharField(max_length=120,default='created',choices=ORDER_STATUS_CHOICES)
+	shipping_total         =models.DecimalField(decimal_places=2,max_digits=20,default=5.99)
+	total      		       =models.DecimalField(decimal_places=2,max_digits=20,default=0.00)
+	active                 =models.BooleanField(default=True)
+	timestamp              =models.DateTimeField(auto_now_add=True)
+	updated                =models.DateTimeField(auto_now=True)
+	objects                =OrderManager()
+
+
+	class Meta:
+		ordering =['-timestamp','-updated']
+	def get_absolute_url(self):
+		return reverse('orders:detail',kwargs={'order_id':self.order_id})
+	def get_shipping_status(self):
+		if self.status == 'refunded':
+			return 'Refunded'
+		elif self.status == 'shipped':
+			return 'Shipped'
+		else:
+			return 'Shipping Soon'
+
 	def __str__(self):
 		return self.order_id
 
@@ -68,7 +95,10 @@ def pre_save_order_receiver(sender,instance,*args,**kwargs):
 	qs=Order.objects.filter(cart=instance.cart,active=True).exclude(billing_profile=instance.billing_profile)
 	if qs.exists():
 		qs.update(active=False)
-
+	if instance.shipping_address and not instance.shipping_address_final:
+		instance.shipping_address_final=instance.shipping_address.get_address()
+	if instance.billing_address and not instance.billing_address_final:
+		instance.billing_address_final=instance.billing_address.get_address()
 pre_save.connect(pre_save_order_receiver,sender=Order)
 
 def post_save_cart_total_receiver(sender,instance,created,*args,**kwargs):

@@ -22,9 +22,9 @@
   <div class="card-body">
     <h4 class="card-title">Billing</h4>
         <div class='list-group'>
-    	<a class='list-group-item' href="#">Orders</a>
+    	<a class='list-group-item' href="{% url 'orders:list' %}">Orders</a>
     	<a class='list-group-item' href="{% url 'billing:pay' %}">Payment Methods</a>
-    	<a class='list-group-item' href="#">Addresses</a>
+    	<a class='list-group-item' href="{% url 'addresses' %}">Addresses</a>
     </div>
 
   </div>
@@ -35,8 +35,8 @@
   <div class="card-body">
     <h4 class="card-title">Account Detail</h4>
     <div class='list-group'>
-    	<a class='list-group-item' href="#">Name</a>
-    	<a class='list-group-item' href="{% url 'password_change' %}">Password Reset</a>
+    	<a class='list-group-item' href="{% url 'accounts:user-update' %}">Name</a>
+    	<a class='list-group-item' href="{% url 'password_change' %}">Change Password</a>
     </div>
   </div>
 </div>
@@ -56,7 +56,7 @@
   <div class="card-body">
     <h4 class="card-title">History</h4>
      <div class='list-group'>
-    	<a class='list-group-item' href="#">Products Viewed</a>
+    	<a class='list-group-item' href="{% url 'accounts:history-products' %}">Products Viewed</a>
     </div>  
   </div>
 </div>

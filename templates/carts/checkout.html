@@ -11,7 +11,7 @@
 		</div>
 		<div class='col-12 col-md-6'>
 			<h2>Continue as a guest</h2>
-			{% url 'accounts:guest' as guest_url %}
+			{% url 'guest' as guest_url %}
 			{% include 'accounts/snippets/form.html' with form=guest_form next=request.build_absolute_uri action_url=guest_url %}
 		</div>
 	</div>
@@ -59,8 +59,8 @@
 		<p class='leader'>Checkout</p>
 		<hr/>
 		<p>Cart Items       : {% for product in object.cart.products.all %}{{ product.title }}{% endfor %}</p>
-		<p>Shipping Address : {{ object.shipping_address.get_address }}</p>
-		<p>Billing Address  : {{ object.billing_address.get_address }}</p>
+		<p>Shipping Address : {{ object.shipping_address_final }}</p>
+		<p>Billing Address  : {{ object.billing_address_final }}</p>
 		<p>Payment Method   : {{ billing_profile.default_card }}<a href="{{ billing_profile.get_payment_method_url }}?next={{ request.build_absolute_uri }}">[Change?]</a></p>
 		<p>Cart Total       : {{ object.cart.total }}</p>
 		<p>Shipping Total   : {{ object.shipping_total }}</p>

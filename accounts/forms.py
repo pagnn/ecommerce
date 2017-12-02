@@ -3,8 +3,10 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from django.core.urlresolvers import reverse
 from django.utils.safestring import mark_safe
+from django.contrib.auth import authenticate,login
 
-from .models import EmailActivation
+from .signals import user_logged_in_signal
+from .models import EmailActivation,GuestEmail
 User=get_user_model()
 
 
@@ -48,7 +50,11 @@ class UserAdminCreationForm(forms.ModelForm):
             user.save()
         return user
 
-
+class UserDetailChangeForm(forms.ModelForm):
+    full_name=forms.CharField(label='Name',required=False,widget=forms.TextInput(attrs={'class':'form-control'}))
+    class Meta:
+        model=User
+        fields=('full_name',)
 
 class UserAdminChangeForm(forms.ModelForm):
     """A form for updating users. Includes all the fields on
@@ -69,12 +75,63 @@ class UserAdminChangeForm(forms.ModelForm):
 
 
 
-class GuestForm(forms.Form):
-	email = forms.EmailField()
+class GuestForm(forms.ModelForm):
+	class Meta:
+		model=GuestEmail
+		fields=('email',)
+	def __init__(self,request,*args,**kwargs):
+		self.request=request
+		super(GuestForm,self).__init__(*args,**kwargs)
+	def save(self, commit=True):
+		request=self.request
+		obj = super(GuestForm, self).save(commit=False)
+		if commit:
+			obj.save()
+			request.session['guest_email_id']=obj.id
+		return obj
 
 class LoginForm(forms.Form):
 	email=forms.EmailField(widget=forms.TextInput(attrs={'class':'form-control','placeholder':'username'}))
 	password=forms.CharField(widget=forms.PasswordInput(attrs={'class':'form-control','placeholder':'password'}))
+	def __init__(self,request,*args,**kwargs):
+		self.request=request
+		super(LoginForm,self).__init__(*args,**kwargs)
+	def clean(self):
+		request=self.request
+		data=self.cleaned_data
+		email=data.get('email')
+		password=data.get('password')
+		qs=User.objects.filter(email=email)
+		if qs.exists():
+			not_active=qs.filter(is_active=False)
+			if not_active.exists():
+				confirmed_qs=EmailActivation.objects.filter(email=email)
+				is_confirmable=confirmed_qs.confirmable().exists()
+				link=reverse('accounts:resend_activation')
+				resend_msg="Go to <a href='{resend_link}'>resend Activation Email</a>".format(resend_link=link)
+				if is_confirmable:
+					msg1='Please check your email yo confirm your account or.'+resend_msg
+					raise forms.ValidationError(mark_safe(msg1))
+				email_exist_qs=EmailActivation.objects.email_exist(email=email)
+				if email_exist_qs.exists():
+					msg2='Please Reactive your email.'+resend_msg
+					raise forms.ValidationError(mark_safe(msg2))
+				if not is_confirmable and not email_exist_qs.exists():
+					register_link=reverse('register')
+					register_msg='Go to <a href="{register_link}">register</a>'.format(register_link=register_link)
+					msg3='This user is inactive.'+register_msg
+					raise forms.ValidationError(mark_safe(msg3))
+		user=authenticate(request,email=email,password=password)
+		if user is None:
+			raise forms.ValidationError('Invalid Credentials.')
+		login(request,user)
+		self.user=user
+		user_logged_in_signal.send(user.__class__,instance=user,request=request)
+		try:
+			del request.session['guest_email_id']
+		except:
+			pass          
+		return data
 
 class RegisterForm(forms.ModelForm):
     """A form for creating new users. Includes all the required

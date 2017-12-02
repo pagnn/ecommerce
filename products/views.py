@@ -1,13 +1,29 @@
 from django.shortcuts import render,get_object_or_404
 from django.views.generic import ListView,DetailView
 from django.http import Http404
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.contenttypes.models import ContentType
 
 
 from analytics.mixins import ObjectViewedMixin
 from carts.models import Cart
 from .models import Product
-
+from analytics.models import ObjectViewed
 # Create your views here.
+
+class UserProductHistoryListView(LoginRequiredMixin,ListView):
+	template_name='products/history.html'
+	def get_queryset(self,*args,**kwargs):
+		request=self.request
+		views=request.user.objectviewed_set.by_model(Product)
+		return views
+	def get_context_data(self,*args,**kwargs):
+		context=super(UserProductHistoryListView,self).get_context_data(*args,**kwargs)
+		cart_obj,new_obj=Cart.objects.new_or_get(self.request)
+		context['cart']=cart_obj
+		return context	
+
+
 class ProductListView(ListView):
 	def get_queryset(self,*args,**kwargs):
 		request=self.request
