@@ -8,6 +8,6 @@ pillow==4.3.0
 pip==9.0.1
 pytz==2017.3
 requests==2.18.4
-setuptools==38.2.3
+setuptools==65.5.1
 stripe==1.75.0
 urllib3==1.22
